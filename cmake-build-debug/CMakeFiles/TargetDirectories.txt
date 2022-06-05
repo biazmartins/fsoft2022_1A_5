@@ -1,3 +1,3 @@
-C:/Users/beatr/AppData/Roaming/SPB_Data/fsoft2022_1A_5/cmake-build-debug/CMakeFiles/fsoft2022_1A_5.dir
-C:/Users/beatr/AppData/Roaming/SPB_Data/fsoft2022_1A_5/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/beatr/AppData/Roaming/SPB_Data/fsoft2022_1A_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/CMakeFiles/fsoft2022_1A_5.dir
