@@ -32,16 +32,6 @@ Employee* EmployeeContainer::get(char email){
 }
 
 
-//não entendo o código a partir daqui!!
-void EmployeeContainer::add(const Employee& obj){
-    list<Employee>::iterator it = search(obj.getEmail());
-    if(it == this->employees.end()){
-        this->employees.push_back(obj);
-    }else{
-        string msg = "Employee: " + to_string(obj.getEmail());
-    }
-}
-
 
 
 

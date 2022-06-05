@@ -15,7 +15,7 @@ Client::Client(const Client& client): Person(client.name){
     this->phone_number = client.phone_number;
     this->email = client.email;
 }
-Client::~Client(){//????
+Client::~Client(){//?
 }
 
 
@@ -36,5 +36,5 @@ string Client::getEmail() const{
 void Client::setEmail(string email){
     this->email = email;
 }
-//-------------------------------------------------------------------------
+//--------------------------------------------------
 //a ultima parte do código do professor não entendo!

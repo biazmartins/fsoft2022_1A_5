@@ -23,7 +23,7 @@ MakeupStore::MakeupStore(const MakeupStor& obj){
     setDataForConsistency();
 }
 
-const string& MakeupStore::getName() const { //??????
+const string& MakeupStore::getName() const { //?
     return name;
 }
 

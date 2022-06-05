@@ -22,10 +22,6 @@ public:
     int getPhoneNumber() const; //não sei porque não declarou
     void setPhoneNumber(int phone_number);
 
-//não sei qe código está a ser feito a seguir
-    bool operator == (const ClientFile& obj) const;
-    bool operator == (int )//?????????????????????
-};
 
 
 
