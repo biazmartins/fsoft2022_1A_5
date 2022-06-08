@@ -5,6 +5,7 @@
 #include "duplicatedDataException.h"
 #include "WorkshopContainer.h"
 
+
 list<Workshop>::iterator WorkshopContainer::search(char store){
     list<Workshop>::iterator it =this->workshop.begin();
     for(;it != this->workshop.end(); ++it){
@@ -39,4 +40,4 @@ list<Workshop>::iterator WorkshopContainer::search(char date){
             return it;
     }
     return it;
-}le 
+}
