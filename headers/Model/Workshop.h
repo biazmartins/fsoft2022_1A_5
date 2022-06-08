@@ -3,11 +3,6 @@
 #include "Employee.h"
 
 
-
-#ifndef HEADERS_MODEL_LECTURE_H_
-#define HEADERS_MODEL_LECTURE_H_
-
-
 using namespace std;
 
 class Workshop{
@@ -34,5 +29,3 @@ public:
     bool operator == (const Employee& obj) const;
 
 }
-
-#endif
