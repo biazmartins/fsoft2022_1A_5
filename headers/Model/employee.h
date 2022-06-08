@@ -7,28 +7,23 @@
 
 #include <string>
 #include <iostream>
-#include "Person.h"
 
 using namespace std;
 
 class Employee{
 private:
     string name;
-    string email; //nao sei se tem
-    string specialty;
+    string specialty; //o que ele faz
     string store; //location
 public:
-    Employee(const string& name, const string& email, const string& specialty, const string& store);
+    Employee(const string& name, const string& specialty, const string& store);
     Employee(const Employee& Employee);
     ~Employee();
 
     const string& getName() const;
     void setName(const string &name);
 
-    //const string& getEmail() const;
-    //void setEmail(const string &?? );
-
-    //const string& getSpecialty () const;
+    //const string& getSpecialty() const;
     //void setSpecialty(string &specialty);
 
     //const string& getStore() const;
