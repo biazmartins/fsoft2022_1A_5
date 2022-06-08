@@ -20,7 +20,7 @@ list<ClientFile>::iterator ClientFileContainer::serach(int phone_number || char 
     return it;
 }
 
-//não tenho a certeza se esta parte do código é necessária no meu programa, se for
+//não tenho a certeza se esta parte do código é necessária no programa, se for
 //para colocar, basicamente esta parte de código permite criar uma nova lista de fichas de cliente
 list<ClientFile> ClientFileContainer::getAll(){
     list<ClientFile> newlist (this->students);

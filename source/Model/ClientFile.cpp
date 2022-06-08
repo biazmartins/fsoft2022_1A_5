@@ -4,10 +4,7 @@
 
 #include "ClientFile.h"
 
-int ClientFile:: Number = 0 //número da ficha do cliente, por exmplo: Cliente 1345: dados (colocar?)
-
 Client::Client(const string& name, const int& phone_number, const string& email): Person(name){  //???
-    this->number = ++Number; //Colocar????
     this->phone_number = phone_number;
     this->email = email;
 }
@@ -19,14 +16,12 @@ Client::~Client(){//?
 }
 
 
-
-int Client::getPhoneNumber() const { //a escrita do get está bem? há _ entre no phone_number ou é tudo junto?
+int Client::getPhoneNumber() const {
     return phone_number;
 }
 void Client::setPhoneNumber(int phone_number){
     this->phone_number = phone_number;
 }
-
 
 
 //não tenho a certeza se é suposto colocar esta parte
