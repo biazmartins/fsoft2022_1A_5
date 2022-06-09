@@ -45,10 +45,13 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_SOURCES_MODEL_DIR}/person.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Workshop.h
         ${PROJECT_SOURCES_MODEL_DIR}/Workshop.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/WorkshopContainer.h
+        ${PROJECT_SOURCES_MODEL_DIR}/WorkshopContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/ClientFileContainer.h
         ${PROJECT_SOURCES_MODEL_DIR}/ClientFileContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/EmployeeContainer.h
-        ${PROJECT_SOURCES_MODEL_DIR}/EmployeeContainer.cpp)
+        ${PROJECT_SOURCES_MODEL_DIR}/EmployeeContainer.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/View.h)
 
 add_executable(
         fsoft2022_1A_5
