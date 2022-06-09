@@ -3,4 +3,51 @@ project(fsoft2022_1A_5)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(fsoft2022_1A_5 main.cpp headers/client.h source/client.cpp source/controller.cpp source/dataConsistencyException.cpp source/MakeupStore.cpp source/ClientFile.cpp headers/ClientFile.h source/Client.cpp source/Employee.cpp source/Controllers.cpp source/Controllers.h headers/Controllers/controller.h source/Exceptions/duplicatedDataException.cpp source/Exceptions/invalidDataException.cpp source/Model/ClientFileContainer.cpp source/Model/EmployeeContainer.cpp headers/Model/ClientFile.h source/Model/Person.cpp source/Model/person.cpp mockData.cpp mockData.h mock/mockData.cpp source/Model/Workshop.cpp source/Model/WorkshopContainer.cpp headers/Model/WorkshopContainer.h headers/Model/employee.h)
+set(PROJECT_HEADERS_DIR ${PROJECT_SOURCE_DIR}/headers)
+
+set(PROJECT_SOURCES_DIR ${PROJECT_SOURCE_DIR}/source)
+
+set(PROJECT_MOCK_DIR ${PROJECT_SOURCE_DIR}/mock)
+
+include_directories(
+        ${PROJECT_MOCK_DIR})
+set(MOCK_SOURCE_FILES
+        ${PROJECT_MOCK_DIR}/mockData.h
+        ${PROJECT_MOCK_DIR}/mockData.cpp)
+
+
+set(PROJECT_HEADERS_CONTROLLERS_DIR
+        ${PROJECT_HEADERS_DIR}/Controllers)
+set(PROJECT_SOURCES_CONTROLLERS_DIR
+        ${PROJECT_SOURCES_DIR}/Controllers)
+include_directories(
+        ${PROJECT_HEADERS_CONTROLLERS_DIR}
+        ${PROJECT_SOURCES_CONTROLLERS_DIR})
+
+
+set(PROJECT_HEADERS_MODEL_DIR
+        ${PROJECT_HEADERS_DIR}/Model)
+set(PROJECT_SOURCES_MODEL_DIR
+        ${PROJECT_SOURCES_DIR}/Model)
+include_directories(
+        ${PROJECT_HEADERS_MODEL_DIR}
+        ${PROJECT_SOURCES_MODEL_DIR})
+
+set(MODEL_SOURCE_FILES
+        ${PROJECT_HEADERS_MODEL_DIR}/ClientFile.h
+        ${PROJECT_SOURCES_MODEL_DIR}/ClientFile.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/employee.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Employee.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/Date.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Date.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/Person.h
+        ${PROJECT_SOURCES_MODEL_DIR}/person.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/Workshop.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Workshop.cpp)
+
+add_executable(
+        fsoft2022_1A_5
+        main.cpp
+        ${MODEL_SOURCE_FILES}
+        ${CONTROLLERS_SOURCE_FILES}
+        ${MOCK_SOURCE_FILES})
