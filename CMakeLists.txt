@@ -44,7 +44,11 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_HEADERS_MODEL_DIR}/Person.h
         ${PROJECT_SOURCES_MODEL_DIR}/person.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Workshop.h
-        ${PROJECT_SOURCES_MODEL_DIR}/Workshop.cpp)
+        ${PROJECT_SOURCES_MODEL_DIR}/Workshop.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/ClientFileContainer.h
+        ${PROJECT_SOURCES_MODEL_DIR}/ClientFileContainer.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/EmployeeContainer.h
+        ${PROJECT_SOURCES_MODEL_DIR}/EmployeeContainer.cpp)
 
 add_executable(
         fsoft2022_1A_5
