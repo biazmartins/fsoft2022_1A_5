@@ -29,21 +29,16 @@ void controller::run(){
                 runWorkshops();
                 break;
             case 4:
-                runConsultWorkshopsStatistics(); //????
-                break;
-            case 5:
-                runConcultWorkshopData(); //?????
-                break;
-            default:
+                runStrores();
                 break;
         }
     }
 }
 
-void controller::runClientFile(){
+void controller::runClientsFile(){
     int option = -1;
     do{
-        option = this->view.menuClientFile();
+        option = this->view.menuClientsFile();
         switch (option) {
             case 1: {
                 ClientFile clientFile = this->clientFileView.getClientFile();
@@ -51,29 +46,7 @@ void controller::runClientFile(){
                 container.add(student);
             }
             break;
-            case 2: {
-                int phone_number = Utils::getNumber("Enter the Client Phone Number");
-                ClientFileContainer& container = this->model.getClientFileContainer();
-                ClientFile *ptr = container.get(phone_number);
-                if (ptr != NULL) {
-                    this->clientFileView.printClientFile(ptr);
-                } else {
-                    cout << "The Client file does not exist." << endl;
-                }
-            }
-            break;
-            case 3: {
-                int email = Utils::getString("Enter the Client email");
-                ClientFileContainer &container = this->model.getClientFileContainer();
-                ClientFile *ptr = container.get(email);
-                if (ptr != NULL) {
-                    this->clientFileView.printClientFile(ptr);
-                } else {
-                    cout << "The Client file does not exist." << endl;
-                }
-            }
-            break;
-            case 4: {  //??
+            case 2: {  //??
                 try{
                     int phone_number = Utils::getNumber("Enter the client phone number.");
                     ClientFileContainer& container = this->model.getClientFileContainer();
@@ -84,31 +57,32 @@ void controller::runClientFile(){
                 }
             }
             break;
-            case 5: { //??
-                try{
-                    int email = Utils::getString("Enter the client email.");
-                    ClientFileContainer& container = this->model.getClientFileContainer();
-                    container.remove(email);
-                }catch(DataConsistencyException& e){
-                    string str(e.what());
-                    cout<<str<<endl;
+
+            case 3: {
+                int phone_number = Utils::getNumber("Enter the Client Phone Number");
+                ClientFileContainer& container = this->model.getClientFileContainer();
+                ClientFile *ptr = container.get(phone_number);
+                if (ptr != NULL) {
+                    this->clientFileView.printClientFile(ptr);
+                } else {
+                    cout << "The Client file does not exist." << endl;
                 }
             }
             break;
-            case 6:{  //??
+
+            case 4:{
                 int phone_number = Utils::getNumber ("Enter the client phone number.");
                 string name = Utils::getString ("Enter the client name.");
-                string email = Utils::getString ("Enter the client email.")
-                Date date = this->studentView.getDate(); //???????????
+                string email = Utils::getString ("Enter the client email.");
                 ClientFileContainer& container = this->model.getClientFileContainer();
-                container.updat(phone_number, name, email, date);
+                container.update(phone_number, name, email, date);
             }
             break;
-            case 7:{
+            case 5:{
                 cout<<this->model.getName()<<endl;
                 ClientFileContainer container = this->model.getClientFileContainer();
                 list<ClientFile> clientFile = container.getAll();
-                this->clientFileView.printClients(clients) //??????????
+                this->clientFileView.printClients(clients);
             }
             break;
             default:
@@ -130,28 +104,6 @@ void controller:: runEmployees(){
             }
             break;
             case 2: {
-                string email = Utils::getString("Enter the employee email");
-                EmployeeContainer& container = this->model.getEmployeeContainer();
-                Employee *ptr = container.get(email);
-                if(ptr != NULL){
-                    this->employeeView.printEmployee(ptr);
-                }else{
-                    cout<<"The employee does not exist." << endl;
-                }
-            }
-            break;
-            case 3: {
-                string name = Utils::getString("Enter the employee name");
-                EmployeeContainer& container = this->model.getEmployeeContainer();
-                Employee *ptr = container.get(name);
-                if(ptr != NULL){
-                    this->employeeView.printEmployee(ptr);
-                }else{
-                    cout<<"The employee does not exist." << endl;
-                }
-            }
-            break;
-            case 4: {
                 try{
                     string email = Utils::getString ("Enter the employee email.");
                     EmployeeContainer& container = this->model.getEmployeeContainer();
@@ -162,18 +114,20 @@ void controller:: runEmployees(){
                 }
             }
             break;
-            case 5: {
-                try{
-                    string name = Utils::getString ("Enter the employee name.");
-                    EmployeeContainer& container = this->model.getEmployeeContainer();
-                    container.remove(name);
-                }catch(DataConsistencyException& e){
-                    string str(e.what());
-                    cout<<str<<endl;
+
+            case 3: {
+                string email = Utils::getString("Enter the employee email");
+                EmployeeContainer& container = this->model.getEmployeeContainer();
+                Employee *ptr = container.get(email);
+                if(ptr != NULL){
+                    this->employeeView.printEmployee(ptr);
+                }else{
+                    cout<<"The employee does not exist." << endl;
                 }
             }
-            break;
-            case 6: {
+                break;
+
+            case 4: {
                 string name = Utils::getString ("Enter the employee name");
                 string email = Utils::getString ("Enter the employee email");
                 string specialty = Utils::getString ("Enter the employee specialty");
@@ -183,7 +137,8 @@ void controller:: runEmployees(){
                 container.update(name, email, specialtu, store, date);
             }
             break;
-            case 7: {
+
+            case 5: {
                 cout<<this->model.getName()<<endl;
                 EmployeeContainer container = this->model.getEmployeeContainer();
                 list<Employees> employees = container.getAll();
@@ -200,8 +155,32 @@ void controller::runWorkshops(){
 
     int option = -1;
     do{
-        option = this->view.menuScheduleWorkshop(){
+        option = this->view.menuWorkshop();
+
+        switch(option){
+            case 1: {
+                Workshop workshop = this->workshop.getWorkshop();
+                WorkshopContainer &container = this ->model.getWorkshopContainer();
+                container.add(workshop);
+            }
+            break;
+            case 2: {
+
+            }
+        }
+    }
+}
+
+
+/*
+void controller::runStores(){
+    int option = -1;
+    do {
+        option = this->view.menuStores();
+
+        switch(option){
 
         }
     }
 }
+*/
