@@ -6,6 +6,7 @@
 #define FSOFT2022_1A_5_PERSON_H
 
 #include <string>
+#include "Date.h"
 
 using namespace std;
 
@@ -15,7 +16,6 @@ protected:
     bool isNameValid(string name);
 public:
     Person(string name);
-    Person(Person const &person);
     ~Person();
     string getName() const;
     void setName(string name);
