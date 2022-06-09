@@ -3,11 +3,41 @@
 //codigo semelhante ao do stor
 
 
-#include "Date.h"
-#include "InvalideDataException.h"
-#define <string>
+#include "C:\Users\HP\fsoft2022_1A_5\headers\Model\Date.h"
+#include <string>
 
 using namespace std;
+
+Date :: Date() {
+    this->month = this->day=1;
+    this->year = 1990;
+}
+Date :: Date(int day, int month, int year) {
+    this->month = month;
+    this->year = year;
+    this->day = day;
+}
+
+void Date ::setDate(int day, int month, int year) {
+    this->month = month;
+    this->year = year;
+    this->day = day;
+}
+void Date::printDate() {
+    cout << this->day << "/" << this->month << "/" << this->year << endl;
+}
+
+int Date::getDay() {
+    return this->day;
+}
+
+int Date::getMonth() {
+    return this->month;
+}
+
+int Date::getYear() {
+    return this->year;
+}
 
 bool Date :: IsLeapYear (int year){
     if(year % 400 == 0)  // se o ano for multiplo de 400 é ano bissexto
@@ -21,100 +51,48 @@ bool Date :: IsLeapYear (int year){
     return false;
 }
 
-bool Date :: IsDateValid(int day, int month, int year){
-    bool result = true;
-    if(day <= 0 || day > 31 || month <= 0 || month > 12){
-        result = false;
-    }else{
-        switch(month){
-            case 2:
-                if (IsLeapYear(year) == true){
-                    if(day > 29){
-                        result = false;
-                    }
-                }else{
-                    if(day = 29){
-                        result = true;
-                }
-        }break;
-            case 4:
-            case 6:
-            case 9:
-            case 11:
-                if(day > 30){
-                    result = false;
-                }
-        }else{
-            if(day = 30){
-                result = true;
-            }break;
-        }
-}
-    return result;
+int Date ::maxDays() {
+    int max_day_value;
 
 
-Date :: Date(){
-    setDate(1,1,1900);  //data default???
+    if (this->month == 1 or this->month == 3 or this->month == 5 or this->month == 7 or this->month == 8 or this->month == 10 or this->month == 12){
+        max_day_value = 31;
     }
-
-Date :: Date(int day, int month, int year){
-        setDate(day, month, year);
+    else if (this->month == 4 or this->month == 6 or this->month == 9 or this->month == 11){
+        max_day_value = 30;
     }
-
-Date :: Date(const Date& date){
-        setDate(date.day, date.month, date.year);
-    }
-
-void Date :: AddDate(int day, int month, int year) {
-    if (IsDateValid(day, month, year)) {
-        this->day = day;
-        this->month = month;
-        this->year = year;
+    else if (this->IsLeapYear(this->year)){
+        max_day_value = 29;
     }
     else{
-        string msg =to_string(day)+ "/"+to_string(month)+"/"+to_string(year);
-        throw InvalidDataException(msg);
+        max_day_value = 28;
     }
+    return max_day_value;
 }
-
-void Date :: GetDate(int& day, int& month, int& year) const{
-    day = this->day;
-    month = this->month;
-    year = this->year;
-}
-
-bool Date :: operator == (const Date& obj) const{
-    if(this->day == obj.day && this->month == obj.month && this->year == obj.year){
+bool Date::operator>(Date d2) {
+    if (this->year>d2.getYear()){
+        return true;
+    }
+    if (this->year == d2.getYear() && this->month > d2.getMonth()){
+        return true;
+    }
+    if (this->year == d2.getYear() && this->month == d2.getMonth() && this->day > d2.getDay()){
         return true;
     }
     return false;
+}
 
-bool Date :: operator > (const Date& obj) const{
-    if(this->year > obj.year){
+bool Date::operator<(Date d2){
+    if (this->year<d2.getYear()){
         return true;
     }
-    if(this->month > obj.month){
+    if (this->year == d2.getYear() && this->month < d2.getMonth()){
         return true;
     }
-    if(this->day > obj.day){
+    if (this->year == d2.getYear() && this->month == d2.getMonth() && this->day < d2.getDay()){
         return true;
     }
     return false;
-
-bool Date :: operator > (const Date& obj) const{  // codigo mal entendido(nao entendi esta parte)
-    if(*this == obj) {
-        return false;
-    }
-    if(*this > obj) {
-        return false;
-    }
-    return true;
-}
-
-
-
-
-
 }
 
 
