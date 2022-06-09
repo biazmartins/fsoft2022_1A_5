@@ -9,12 +9,12 @@ using namespace std;
 class WorkshopContainer{
 private:
     list<Workshop> workshops;
-    list<Workshop>::iterator search(const string initials);
+    list<Workshop>::iterator search(string initials);
 public:
     list<Workshop> getAll();
-    Workshop* get(const string initials);
-    void add(const Workshop obj);
-    void remove(const string initials);
+    Workshop* get(string initials);
+    void add(Workshop obj);
+    void remove(string initials);
 
 };
 #endif //FSOFT2022_1A_5_WORKSHOPCONTAINER_H
