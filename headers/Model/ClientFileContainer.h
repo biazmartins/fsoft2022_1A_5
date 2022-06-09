@@ -1,7 +1,3 @@
-//
-// Created by beatr on 09/06/2022.
-//
-
 #ifndef FSOFT2022_1A_5_CLIENTFILECONTAINER_H
 #define FSOFT2022_1A_5_CLIENTFILECONTAINER_H
 

@@ -4,11 +4,11 @@ Workshop::Workshop(){
     this->name = "";
     setDataForConsistency();
 }
-Workshop::Workshop(const string& name){
+Workshop::Workshop(string name){
     this->name = name;
     setDataForConsistency();
 }
-Workshop::Workshop(const Workshop& obj){
+Workshop::Workshop(Workshop obj){
     this->name = obj.name;
 
     this->employees = obj.employees;
@@ -21,7 +21,7 @@ const string& Workshop::getName() const {
     return name;
 }
 
-void Workshop::setName(const string& name){
+void Workshop::setName(string name){
     this->name =name;
 }
 EmployeesContainer & Workshop::getEmployeesContainer(){
@@ -33,5 +33,3 @@ MakeupStoreContainer & Workshop::getEmployeesContainer(){
 SegmentationContainer & Workshop::getEmployeesContainer(){
     return this->segmentation;
 }
-
-//nao tenho certeza acerca do SegmentationContainer e do MakeupStoreContainer
