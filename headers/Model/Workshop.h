@@ -16,14 +16,14 @@ public:
     Workshop(const Workshop obj);
     ~Workshop();
 
-    Workshop* getWorkshop() const;
+    Workshop* getWorkshop();
     void setSegmentation(string segmentation);
     void setStore(string store);
     void setEmployee(Employee employee);
 
-    bool operator == (const Workshop obj) const;
-    bool operator == (const string obj) const;
-    bool operator == (const string obj) const;
-    bool operator == (const Employee obj) const;
+    bool operator == (Workshop obj);
+    bool operator == (string obj);
+    bool operator == (string obj);
+    bool operator == (Employee obj);
 
 };
