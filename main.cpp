@@ -1,6 +1,19 @@
 #include <iostream>
+#include "MakeupStore.h"
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+#include "mockData.h"
+#include "Controller.h"
+
+using namespace std;
+
+int main(){
+    MakeupStore makeupStore ();
+
+    mockData mock;
+    mock.generateData(makeupStore);
+
+    Controller controller(makeupStore);
+    controller.run();
+    cout <<"Application has existed" << endl;
     return 0;
 }
