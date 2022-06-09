@@ -4,32 +4,37 @@
 
 #include "ClientFile.h"
 
-Client::Client(const string& name, const int& phone_number, const string& email): Person(name){  //???
-    this->phone_number = phone_number;
+ClientFile::ClientFile(string name, string email, int phone_number) {
+    this->name = name;
     this->email = email;
-}
-Client::Client(const Client& client): Person(client.name){
-    this->phone_number = client.phone_number;
-    this->email = client.email;
-}
-Client::~Client(){//?
-}
-
-
-int Client::getPhoneNumber() const {
-    return phone_number;
-}
-void Client::setPhoneNumber(int phone_number){
     this->phone_number = phone_number;
 }
 
+ClientFile::~ClientFile(){
+    this->name = "none";
+    this->email= "none";
+    this->phone_number = 0;
+}
+string ClientFile::getName() const {
+    return this->name;
+}
 
-//não tenho a certeza se é suposto colocar esta parte
-string Client::getEmail() const{
-    return email;
+void ClientFile::setName(string name) {
+    this->name = name;
 }
-void Client::setEmail(string email){
-    this->email = email;
+string ClientFile::getEmail() const {
+    return this->email;
 }
-//--------------------------------------------------
-//a ultima parte do código do professor não entendo!
+
+void ClientFile::setEmail(string email) {
+    this->email= email;
+}
+
+int ClientFile::getPhoneNumber() const {
+    return this->phone_number;
+}
+
+void ClientFile::setPhoneNumber(int phone_number) {
+    this->phone_number = phone_number;
+}
+
