@@ -13,7 +13,7 @@ private:
 
 public:
     Workshop(string segmentation, string store, Employee employees);
-    Workshop(const Workshop& obj);
+    Workshop(const Workshop obj);
     ~Workshop();
 
     Workshop* getWorkshop() const;
@@ -21,9 +21,9 @@ public:
     void setStore(string store);
     void setEmployee(Employee employee);
 
-    bool operator == (const Workshop& obj) const;
-    bool operator == (const string& obj) const;
-    bool operator == (const string& obj) const;
-    bool operator == (const Employee& obj) const;
+    bool operator == (const Workshop obj) const;
+    bool operator == (const string obj) const;
+    bool operator == (const string obj) const;
+    bool operator == (const Employee obj) const;
 
 };
