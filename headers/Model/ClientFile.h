@@ -5,30 +5,31 @@
 #ifndef FSOFT2022_1A_5_CLIENTFILE_H
 #define FSOFT2022_1A_5_CLIENTFILE_H
 
-
+#
 #include <iostream>
 #include <string>
-#include "Person.h"
 
 using namespace std;
 
-class ClientFile : public Person{
+class ClientFile{
 private:
-    static int NUMBER;
+    string name;
     int phone_number;
-    char email;
+    string email;
 
 public:
-    ClientFile(const string& name, const string& email, const int& phone_number); //verificar se esta parte está bem, comparando com o código do professor
-    ClientFile(const ClientFile& clientFile);
+    ClientFile(string name, string email, int phone_number);
     ~ClientFile();
 
-    //const string& getName() const;
-    //void setName(const string &name);
+    string getName() const;
+    void setName(string name);
 
-    //const string& getEmail() const; //não tenho a certeza se a parte onde está "string&" está bem
-    // void setEmail(const string &email);
-    // int getPhoneNumber() const;
-   //void setPhoneNumber(int phone_number);
+    string getEmail() const;
+    void setEmail(string email);
+
+     int getPhoneNumber() const;
+     void setPhoneNumber(int phone_number);
+
+};
 
 #endif //FSOFT2022_1A_5_CLIENTFILE_H
