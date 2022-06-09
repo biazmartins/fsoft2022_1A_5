@@ -17,10 +17,10 @@ public:
 
 
     MakeupStore();
-    MakeupStore(const string& name);
-    MakeupStore(const MakeupStore& obj);
-    const string& getName() const;
-    void setName(const string& name);
+    MakeupStore(const string name);
+    MakeupStore(const MakeupStore obj);
+    const string getName() const;
+    void setName(const string name);
 
     WorkshopContainer & getWorkshopContainer();
     EmployeeContainer & getEmployeeContainer();
