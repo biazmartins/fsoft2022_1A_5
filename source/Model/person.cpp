@@ -17,7 +17,7 @@ string Person::getName() const {
 
 void Person::setName(string name){
     this->name = name;
-    
+
 }
 
 
