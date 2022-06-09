@@ -16,16 +16,15 @@ private:
 public:
     Date()
     Date(int day, int month, int year);
-    Date(const Date & date);
     void AddDate (int day, int month, int year);
-    void GetDate (int day, int month, int year) const;
+    void GetDate ();
 
     bool IsLeapYear(int year);
     bool IsValid(int day, int month,int year);
 
-    bool operator == (const Date obj) const;
-    bool operator <  (const Date obj) const;
-    bool operator >  (const Date obj) const;
+    bool operator == (Date obj);
+    bool operator <  (Date obj);
+    bool operator >  (Date obj);
 };
 
 
