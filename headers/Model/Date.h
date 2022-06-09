@@ -16,15 +16,18 @@ private:
 public:
     Date()
     Date(int day, int month, int year);
-    void AddDate (int day, int month, int year);
-    void GetDate ();
+    void setDate (int day, int month, int year);
+    void printDate ();
+    int getDay();
+    int getMonth();
+    int getYear();
 
     bool IsLeapYear(int year);
-    bool IsValid(int day, int month,int year);
+    int maxDays();
 
-    bool operator == (Date obj);
-    bool operator <  (Date obj);
-    bool operator >  (Date obj);
+    bool operator == (Date d2);
+    bool operator <  (Date d2);
+    bool operator >  (Date d2);
 };
 
 
