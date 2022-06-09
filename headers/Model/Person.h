@@ -12,13 +12,13 @@ using namespace std;
 class Person{
 protected:
     string name;
-    bool isNameValid(const string& name);
+    bool isNameValid(string name);
 public:
-    Person(const string& name);
-    Person(const Person& person);
+    Person(string name);
+    Person(Person const &person);
     ~Person();
-    const string& getName() const;
-    void setName(const string& name);
+    string getName() const;
+    void setName(string name);
 };
 
 #endif //FSOFT2022_1A_5_PERSON_H
