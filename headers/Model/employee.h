@@ -16,22 +16,21 @@ private:
     string specialty; //o que ele faz
     string store; //location
 public:
-    Employee(const string& name, const string& specialty, const string& store);
-    Employee(const Employee& Employee);
+    Employee(string name,string specialty, string store);
     ~Employee();
 
-    const string& getName() const;
-    void setName(const string &name);
+    string getName() const;
+    void setName(string name);
 
-    //const string& getSpecialty() const;
-    //void setSpecialty(string &specialty);
+    string getSpecialty() const;
+    void setSpecialty(string specialty);
 
-    //const string& getStore() const;
-    //void setStore(string &store);
+    string getStore() const;
+    void setStore(string store);
 
 };
 
 
 
 
-#endif //FSOFT2022_1A_5_EMPLOYEE_H
+#endif // FSOFT2022_1A_5_EMPLOYEE_H
