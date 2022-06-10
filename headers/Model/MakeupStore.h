@@ -8,22 +8,20 @@ using namespace std;
 class MakeupStore{
 private:
 public:
-    string name;
+    string store;
     WorkshopContainer workshops;
     EmployeeContainer employees;
     ClientFileContainer clientfiles;
 
-    void setDataForConsistency();
-
 
     MakeupStore();
-    MakeupStore(string name);
-    MakeupStore(MakeupStore obj);
-    const string getName();
-    void setName(string name);
+    MakeupStore(string store);
+    MakeupStore(MakeupStore const &obj);
+    string getStore();
+    void setStore(string store);
 
     WorkshopContainer & getWorkshopContainer();
     EmployeeContainer & getEmployeeContainer();
-    ClientFileContainer & getClientFileContainer()
+    ClientFileContainer & getClientFileContainer();
 };
 
