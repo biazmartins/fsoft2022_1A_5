@@ -51,8 +51,8 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_SOURCES_MODEL_DIR}/ClientFileContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/EmployeeContainer.h
         ${PROJECT_SOURCES_MODEL_DIR}/EmployeeContainer.cpp
-        ${PROJECT_HEADERS_MODEL_DIR}/MakeupStore.h
-        )
+        ${PROJECT_HEADERS_MODEL_DIR}/View.h
+        ${PROJECT_HEADERS_MODEL_DIR}/Utils.h)
 
 add_executable(
         fsoft2022_1A_5
