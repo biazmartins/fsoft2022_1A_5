@@ -2,12 +2,12 @@
 // Created by beatr on 06/06/2022.
 //
 
-#include "duplicatedDataException.h"
-#include "WorkshopContainer.h"
+
+#include "C:\Users\beatr\AppData\Roaming\SPB_Data\fsoft2022_1A_5\headers\Model\WorkshopContainer.h"
 
 
 list<Workshop>::iterator WorkshopContainer::search(char store){
-    list<Workshop>::iterator it =this->workshop.begin();
+    list<Workshop>::iterator it = this->workshop.begin();
     for(;it != this->workshop.end(); ++it){
         if((*it)== store)
             return it;

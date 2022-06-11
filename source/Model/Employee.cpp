@@ -3,7 +3,7 @@
 //
 #include "employee.h"
 
-Employee::Employee(string name, string specialty, string store) {
+Employee::Employee(string name, string specialty, string store){
     this->name = name;
     this->specialty = specialty;
     this->store = store;

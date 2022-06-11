@@ -7,16 +7,15 @@ using namespace std;
 
 class MakeupStore{
 private:
-public:
     string store;
     WorkshopContainer workshops;
     EmployeeContainer employees;
     ClientFileContainer clientfiles;
 
 
+public:
     MakeupStore();
     MakeupStore(string store);
-    MakeupStore(MakeupStore const &obj);
     string getStore();
     void setStore(string store);
 

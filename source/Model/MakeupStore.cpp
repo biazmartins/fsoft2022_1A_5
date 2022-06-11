@@ -1,44 +1,40 @@
-//
-// Created by Ana Rita Maia Barbosa da Silva on 02/06/2022.
-//
-//?????????????
+
 #include "MakeupStore.h"
 
 MakeupStore::MakeupStore(){
-    this->name = "";
-    setDataForConsistency();
+    this->store = "";
 }
 
-MakeupStore::MakeupStore(const string& name){
-    this->name = name;
-    setDataForConsistency();
+MakeupStore::MakeupStore(string store){
+    this->store = store;
+}
+string MakeupStore::getStore() {
+    return this ->store;
 }
 
-MakeupStore::MakeupStore(const MakeupStor& obj){
+void MakeupStore::setStore(string store) {
+    this->store = store;
+};
+
+
+
+
+
+/*MakeupStore::MakeupStore(MakeupStore const &obj){
     this->name = obj.name;
 
-    this->clientsFile = obj.clientsFile;
+    this->clientFile = obj.clientFile;
     this->employees = obj.employees;
     this->workshops = obj.workshops;
-    setDataForConsistency();
-}
 
-const string& MakeupStore::getName() const { //?
-    return name;
 }
-
-void MakeupStore::setName(const string &name){
-    this->name = name;
-}
-
 ClientsFileContainer & MakeupStore::getClientsFileContainer(){
     return this->clientsFile;
 }
 EmployeesContainer & MakeupStore::getEmployeeContainer(){
     return this->employees;
 }
-WorkshopsContainer & MakeupStore::getWorkshopsContainer(){
+WorkshopsContainer & MakeupStore::getWorkshopContainer(){
     return this->workshops;
 }
-
-//não entendo a ultima função void do professor
+*/
