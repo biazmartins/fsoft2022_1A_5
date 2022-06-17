@@ -12,7 +12,6 @@ private:
     EmployeeContainer employees;
     ClientFileContainer clientfiles;
 
-
 public:
     MakeupStore();
     MakeupStore(string store);
