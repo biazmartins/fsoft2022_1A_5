@@ -11,3 +11,4 @@ DataConsistencyException::DataConsistencyException(string data){
 
 const char* DataConsistencyException::what(){
     return this->data.c_str();
+}
