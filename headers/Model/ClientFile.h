@@ -1,11 +1,6 @@
-//
-// Created by Ana Rita Maia Barbosa da Silva on 04/06/2022.
-//
-
 #ifndef FSOFT2022_1A_5_CLIENTFILE_H
 #define FSOFT2022_1A_5_CLIENTFILE_H
 
-#
 #include <iostream>
 #include <string>
 
@@ -27,8 +22,8 @@ public:
     string getEmail() const;
     void setEmail(string email);
 
-     int getPhoneNumber() const;
-     void setPhoneNumber(int phone_number);
+    int getPhoneNumber() const;
+    void setPhoneNumber(int phone_number);
 
 };
 
