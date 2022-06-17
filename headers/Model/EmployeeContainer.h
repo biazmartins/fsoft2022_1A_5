@@ -6,18 +6,17 @@
 #include "employee.h"
 #include "Date.h"
 
-class EmployeeContainer{
+class EmployeeContainer {
 private:
-    list<Employee> employee;
+    list <Employee> employee;
     list<Employee>::iterator search(string store, string specialty);
 
 public:
-    list<Employee> getAll();
-    Employee* get(sting store, string specialty);
-
-
-    void add(Employee obj);
+    list <Employee> getAll();
+    
+    void add(Employee empregado);
     void remove(string store, string specialty);
     void update(string store, string specialty);
 
+};
 #endif //FSOFT2022_1A_5_EMPLOYEECONTAINER_H
