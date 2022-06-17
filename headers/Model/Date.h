@@ -14,7 +14,7 @@ private:
     int year;
 
 public:
-    Date()
+    Date();
     Date(int day, int month, int year);
     void setDate (int day, int month, int year);
     void printDate ();
