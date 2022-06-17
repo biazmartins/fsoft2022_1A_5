@@ -1,44 +1,14 @@
 
 #include <list>
-#include "C:\Users\beatr\AppData\Roaming\SPB_Data\fsoft2022_1A_5\headers\Model\ClientFile.h"
+#include "ClientFile.h"
+#include "ClientFileContainer.h"
 
 using namespace std;
 
-//Nesta parte do código, o utilizador está a percorrer a lista toda das fichas de clientes existentes
-//name
-
-list<ClientFile>::iterator ClientFileContainer::search(string name){
-    list<ClientFile>::iterator it = this->ClientFiles.begin();
-    for(; it != this->ClientFiles.end(); ++it){
-        if((*it) == name){
-            return it;
-        }
-    }
-    return it;
-}
-
-//não tenho a certeza se esta parte do código é necessária no programa, se for
-//para colocar, basicamente esta parte de código permite criar uma nova lista de fichas de cliente
-
-list<ClientFile> ClientFileContainer::getAll(){
-    list<ClientFile> newlist (this->ClientFiles);
-    return newlist;
-}
-
-ClientFile* ClientFileContainer::get(string name){
-    list<ClientFile>::iterator it = search(name);
-    if(it != this->ClientFiles.end()){
-        return &(*it);
-    }
-    return NULL;
-}
-
-//phone_number
-
 list<ClientFile>::iterator ClientFileContainer::search(int phone_number){
-    list<ClientFile>::iterator it = this->ClientFiles.begin();
-    for(; it != this->ClientFiles.end(); ++it){
-        if((*it) == phone_number){
+    list<ClientFile>::iterator it = this->clientFile.begin();
+    for(; it != this->clientFile.end(); ++it){
+        if((it->getPhoneNumber()) == phone_number){
             return it;
         }
     }
@@ -46,41 +16,32 @@ list<ClientFile>::iterator ClientFileContainer::search(int phone_number){
 }
 
 list<ClientFile> ClientFileContainer::getAll(){
-    list<ClientFile> newlist (this->ClientFiles);
+    list<ClientFile> newlist (this->clientFile);
     return newlist;
 }
 
-ClientFile* ClientFileContainer::get(int phone_number){
+void ClientFileContainer::add(ClientFile cliente) {
+    list<ClientFile>::iterator it = search(cliente.getPhoneNumber()); //procura se um cliente existe ou nao, se retornar a ultima posição da lista é porque nao existe
+    if (it == this->clientFile.end()) {
+        this->clientFile.push_back(cliente); //adicionar o cliente na ultima posição
+    }
+}
+
+void ClientFileContainer::remove(int phone_number) {
     list<ClientFile>::iterator it = search(phone_number);
-    if(it != this->ClientFiles.end()){
-        return &(*it);
+    if (it != this->clientFile.end()) {
+        this->clientFile.erase(it);
     }
-    return NULL;
 }
 
-//email
-
-list<ClientFile>::iterator ClientFileContainer::search(string email){
-    list<ClientFile>::iterator it = this->ClientFiles.begin();
-    for(; it != this->ClientFiles.end(); ++it){
-        if((*it) == email){
-            return it;
-        }
+void ClientFileContainer::update(int phone_number){
+    list<ClientFile>::iterator it = search(phone_number);
+    if(it != this->clientFile.end()){
+        it->setPhoneNumber(phone_number);
     }
-    return it;
 }
 
-list<ClientFile> ClientFileContainer::getAll(){
-    list<ClientFile> newlist (this->ClientFiles);
-    return newlist;
-}
 
-ClientFile* ClientFileContainer::get(string email){
-    list<ClientFile>::iterator it = search(email);
-    if(it != this->ClientFiles.end()){
-        return &(*it);
-    }
-    return NULL;
-}
+
 
 
