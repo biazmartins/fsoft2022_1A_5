@@ -8,9 +8,9 @@ using namespace std;
 class MakeupStore{
 private:
     string store;
-    WorkshopContainer workshops;
-    EmployeeContainer employees;
-    ClientFileContainer clientfiles;
+    WorkshopContainer workshop;
+    EmployeeContainer employee;
+    ClientFileContainer clientFile;
 
 public:
     //construtores
