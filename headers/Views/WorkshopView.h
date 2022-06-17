@@ -8,9 +8,9 @@
 class WorkshopView{
 private:
 public:
-    Workshop getWorkshop(EmployeeContainer & employees, SegmentationContainer & segmentation, MakeupStoreContainer & makeupstore);
+    Workshop getWorkshop(EmployeeContainer & employees);
     void printWorkshop(Workshop *workshop);
-    void printWorkshop(Employee *employee, Segmentation *segmentation, MakeupStore *makeupstore, list<Workshop> workshops);
+    void printWorkshop(Employee *employee);
 };
 
 #endif //FSOFT2022_1A_5_WORKSHOPVIEW_H
