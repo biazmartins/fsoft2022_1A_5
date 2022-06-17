@@ -14,27 +14,19 @@ string MakeupStore::getStore() {
 
 void MakeupStore::setStore(string store) {
     this->store = store;
-};
-
-
-
-
-
-/*MakeupStore::MakeupStore(MakeupStore const &obj){
-    this->name = obj.name;
-
-    this->clientFile = obj.clientFile;
-    this->employees = obj.employees;
-    this->workshops = obj.workshops;
-
 }
-ClientsFileContainer & MakeupStore::getClientsFileContainer(){
-    return this->clientsFile;
-}
-EmployeesContainer & MakeupStore::getEmployeeContainer(){
-    return this->employees;
-}
-WorkshopsContainer & MakeupStore::getWorkshopContainer(){
+
+WorkshopContainer & MakeupStore::getWorkshopContainer() {
     return this->workshops;
 }
-*/
+
+EmployeeContainer & MakeupStore::getEmployeeContainer(){
+    return this->employees;
+}
+ClientFileContainer & MakeupStore::getClientFileContainer() {
+    return this->clientfiles;
+}
+
+
+
+
