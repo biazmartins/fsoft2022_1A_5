@@ -59,4 +59,3 @@ void mockData::generateData(MakeupStore *makeupStore){
     insertWorkshops(makeupStore.getWorkshopContainer());
 }
 
-//coment

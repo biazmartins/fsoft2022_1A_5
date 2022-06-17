@@ -52,7 +52,7 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_HEADERS_MODEL_DIR}/EmployeeContainer.h
         ${PROJECT_SOURCES_MODEL_DIR}/EmployeeContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/View.h
-        ${PROJECT_HEADERS_MODEL_DIR}/Utils.h)
+        ${PROJECT_HEADERS_MODEL_DIR}/Utils.h source/Exceptions/duplicatedDataException.cpp source/Exceptions/invalidDataException.cpp)
 
 add_executable(
         fsoft2022_1A_5
