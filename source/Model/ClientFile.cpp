@@ -1,7 +1,3 @@
-//
-// Created by Ana Rita Maia Barbosa da Silva on 03/06/2022.
-//
-
 #include "ClientFile.h"
 
 ClientFile::ClientFile(string name, string email, int phone_number) {
@@ -37,4 +33,3 @@ int ClientFile::getPhoneNumber() const {
 void ClientFile::setPhoneNumber(int phone_number) {
     this->phone_number = phone_number;
 }
-
