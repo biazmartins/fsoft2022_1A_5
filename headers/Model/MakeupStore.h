@@ -13,10 +13,11 @@ private:
     ClientFileContainer clientfiles;
 
 public:
+    //construtores
     MakeupStore();
     MakeupStore(string store);
-    string getStore();
-    void setStore(string store);
+    string getStore(); //ter o nome da loja
+    void setStore(string store); //mudar o nome da loja
 
     WorkshopContainer & getWorkshopContainer();
     EmployeeContainer & getEmployeeContainer();
