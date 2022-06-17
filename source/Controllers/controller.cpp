@@ -159,6 +159,7 @@ void controller::runWorkshops(){
 
         switch(option){
             case 1: {
+                
                 Workshop workshop = this->workshop.getWorkshop();
                 WorkshopContainer &container = this ->model.getWorkshopContainer();
                 container.add(workshop);

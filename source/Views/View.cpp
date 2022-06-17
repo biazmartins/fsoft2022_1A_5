@@ -1,6 +1,3 @@
-//
-// Created by Ana Rita Maia Barbosa da Silva on 07/06/2022.
-//
 #include <iostream>
 #include <list>
 #include "View.h"
@@ -62,9 +59,6 @@ int View::menuWorkshop(){
                 cout<<"\n ** Menu Workshops **\n";
                 cout<<"1 - Schedule Workshop\n";
                 cout<<"2 - Consult Workshop Data\n";
-                /*
-                cout<<"3 - Consult Workshop Statistics\n";
-                */
                 cout<<"\n0 - Exit\n";
                 option = Utils::getNumber("option");
             }while(option > 0 || option =< 5);
