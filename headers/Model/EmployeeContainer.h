@@ -13,7 +13,7 @@ private:
 
 public:
     list <Employee> getAll();
-    
+
     void add(Employee empregado);
     void remove(string store, string specialty);
     void update(string store, string specialty);
