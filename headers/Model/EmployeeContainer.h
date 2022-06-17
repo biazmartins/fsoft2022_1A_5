@@ -13,11 +13,11 @@ private:
 
 public:
     list<Employee> getAll();
-    ClientFile* get(sting store, string specialty);
+    Employee* get(sting store, string specialty);
 
 
     void add(Employee obj);
-    void remove((sting store, string specialty);
-    void update(sting store, string specialty);
+    void remove(string store, string specialty);
+    void update(string store, string specialty);
 
 #endif //FSOFT2022_1A_5_EMPLOYEECONTAINER_H
