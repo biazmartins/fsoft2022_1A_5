@@ -12,12 +12,10 @@ private:
 
 public:
     list<ClientFile> getAll();
-    ClientFile* get(int phone_number);
 
-
-    void add(ClientFile obj);
+    void add(ClientFile cliente);
     void remove(int phone_number);
-    void update(int phone_number, Date date);
+    void update(int phone_number);
 
 };
 
