@@ -1,4 +1,3 @@
-
 #include "MakeupStore.h"
 
 MakeupStore::MakeupStore(){
@@ -17,16 +16,14 @@ void MakeupStore::setStore(string store) {
 }
 
 WorkshopContainer & MakeupStore::getWorkshopContainer() {
-    return this->workshops;
+    return this->workshop;
 }
-
 EmployeeContainer & MakeupStore::getEmployeeContainer(){
-    return this->employees;
+    return this->employee;
 }
 ClientFileContainer & MakeupStore::getClientFileContainer() {
-    return this->clientfiles;
+    return this->clientFile;
 }
-
 
 
 
