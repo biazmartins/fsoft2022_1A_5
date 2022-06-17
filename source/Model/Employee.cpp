@@ -1,6 +1,4 @@
-//
-// Created by Ana Rita Maia Barbosa da Silva on 03/06/2022.
-//
+
 #include "employee.h"
 
 Employee::Employee(string name, string specialty, string store){
