@@ -4,13 +4,13 @@
 
 #include <iostream>
 #include <string>
-#include "controller.h"
-#include "Utlis.h"
+#include "/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Controllers/controller.h"
+#include "/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Views/Utils.h"
 
 
 using namespace std;
 
-controller::controller(MakeupStore& makeupStore){
+Controller::controller(MakeupStore& makeupStore){
     this->model = makeupStore;
 }
 
@@ -28,9 +28,12 @@ void controller::run(){
             case 3:
                 runWorkshops();
                 break;
-            case 4:
-                runStrores();
+            /* não sei se é necessário colocar esta parte no menu
+             case 4:
+                runStores();
                 break;
+            */
+
         }
     }
 }
