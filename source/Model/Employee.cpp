@@ -7,7 +7,6 @@ Employee::Employee(string name, string specialty, string store){
     this->store = store;
 }
 
-
 Employee::~Employee(){
     this->name = "none";
     this->store = "none";
