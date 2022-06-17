@@ -19,10 +19,6 @@ public:
     void remove(int phone_number);
     void update(int phone_number, Date date);
 
-
 };
-
-
-
 
 #endif //FSOFT2022_1A_5_CLIENTFILECONTAINER_H
