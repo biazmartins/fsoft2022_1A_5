@@ -103,7 +103,8 @@ set(VIEWS_SOURCE_FILES
 add_executable(
         fsoft2022_1A_5
         main.cpp
-
+        ${VIEWS_SOURCE_FILES}
         ${MODEL_SOURCE_FILES}
+        ${EXCEPTION_SOURCE_FILES}
         ${CONTROLLERS_SOURCE_FILES}
         ${MOCK_SOURCE_FILES})
