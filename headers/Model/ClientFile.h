@@ -14,10 +14,10 @@ private:
 
 public:
     ClientFile(string name, string email, int phone_number);
-    ClientFile();
+    ClientFile(); //chamar o constructor ??
 
-    string getName() const;
-    void setName(string name);
+    string getName() const; //??
+    void setName(string name); //?
 
     string getEmail() const;
     void setEmail(string email);
