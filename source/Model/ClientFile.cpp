@@ -1,9 +1,9 @@
 #include "ClientFile.h"
 
 ClientFile::ClientFile(string name, string email, int phone_number) {
-    this->name = name;
-    this->email = email;
-    this->phone_number = phone_number;
+    this->name = name; //??
+    this->email = email; //??
+    this->phone_number = phone_number; //??
 }
 
 ClientFile::ClientFile(){
