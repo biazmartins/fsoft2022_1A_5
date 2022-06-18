@@ -4,7 +4,7 @@
 Person::Person(string name) {
     this->name = name;
 }
-Person::~Person(){
+Person::Person(){
     this->name = "none";
 }
 string Person::getName() const {
