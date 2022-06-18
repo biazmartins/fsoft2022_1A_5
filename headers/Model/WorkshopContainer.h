@@ -4,17 +4,17 @@
 #include <list>
 #include "Workshop.h"
 
-using namespace std;
-
 class WorkshopContainer{
 private:
-    list<Workshop> workshops;
-    list<Workshop>::iterator search(string initials);
+    list<Workshop> workshop;
+    list<Workshop>::iterator search(string segmentation);
+
 public:
     list<Workshop> getAll();
-    Workshop* get(string initials);
-    void add(Workshop obj);
-    void remove(string initials);
+
+    void add(Workshop evento);
+    void remove(string segmentation);
+    void update(string segmentation);
 
 };
 #endif //FSOFT2022_1A_5_WORKSHOPCONTAINER_H
