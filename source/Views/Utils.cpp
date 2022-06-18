@@ -4,11 +4,11 @@
 
 #include <iostream>
 #include <limits>
-#include "utils.h"
+#include "Utils.h"
 
 using namespace std;
 
-int Utils::getPhoneNumber(const string& label){
+int Utils::getNumber(const string& label){
     int phone_number;
     bool flag = false;
     do{
@@ -24,7 +24,7 @@ int Utils::getPhoneNumber(const string& label){
     }while(flag == true);
     cin.clear();
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    return phone_number
+    return phone_number;
 }
 
 string Utils::getString(const string& label){

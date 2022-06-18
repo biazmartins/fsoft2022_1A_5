@@ -1,9 +1,9 @@
 #include <iostream>
 #include "WorkshopView.h"
 #include "Utils.h"
-#include "InvalidDataException.h"
+#include "invalidDataException.h"
 #include "Workshop.h"
-#include "EmployeeContainer"
+#include "EmployeeContainer.h"
 
 using namespace std;
 
@@ -19,7 +19,7 @@ Workshop WorkshopView :: getWorkshop(EmployeeContainer & employees){
             Employee *employee = employee.get(initials);
             workshop.setEmployee(employee);
 
-        } catch (InvalidDataException &e) {
+        } catch (invalidDataException &e) {
             flag = true;
         };
     while (flag == true);

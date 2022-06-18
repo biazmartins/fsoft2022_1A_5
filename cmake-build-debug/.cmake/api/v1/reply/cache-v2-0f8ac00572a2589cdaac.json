@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug"
+			"value" : "/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -615,7 +615,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5"
+			"value" : "/Users/anarita/Desktop/GitHub/fsoft2022_1A_5"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1207,7 +1207,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug"
+			"value" : "/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug"
 		},
 		{
 			"name" : "fsoft2022_1A_5_IS_TOP_LEVEL",
@@ -1231,7 +1231,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5"
+			"value" : "/Users/anarita/Desktop/GitHub/fsoft2022_1A_5"
 		}
 	],
 	"kind" : "cache",

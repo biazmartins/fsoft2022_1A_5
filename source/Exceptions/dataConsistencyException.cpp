@@ -2,13 +2,13 @@
 // Created by Ana Rita Maia Barbosa da Silva on 02/06/2022.
 //
 
-#include "DataConsistencyException.h"
+#include "dataConsistencyException.h"
 
 
-DataConsistencyException::DataConsistencyException(string data){
+dataConsistencyException::dataConsistencyException(string data){
     this->data = "Error: consistency!!";
 }
 
-const char* DataConsistencyException::what(){
+const char* dataConsistencyException::what(){
     return this->data.c_str();
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5
+# Install script for directory: /Users/anarita/Desktop/GitHub/fsoft2022_1A_5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

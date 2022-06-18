@@ -4,17 +4,17 @@
 
 #include <iostream>
 #include <string>
-#include "/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Controllers/controller.h"
-#include "/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Views/Utils.h"
-
+#include <tuple>
+#include "controller.h"
+#include "Utils.h"
 
 using namespace std;
 
-Controller::controller(MakeupStore& makeupStore){
+Controller::Controller(MakeupStore &makeupStore){
     this->model = makeupStore;
 }
 
-void controller::run(){
+void Controller::run(){
     int option = -1;
     do {
         option = this->view.menuMakeupStore();
@@ -28,25 +28,19 @@ void controller::run(){
             case 3:
                 runWorkshops();
                 break;
-            /* não sei se é necessário colocar esta parte no menu
-             case 4:
-                runStores();
-                break;
-            */
-
         }
-    }
+    }while(option != 0);
 }
 
-void controller::runClientsFile(){
+void Controller::runClientFile(){
     int option = -1;
     do{
-        option = this->view.menuClientsFile();
+        option = this->view.menuClientFile();
         switch (option) {
             case 1: {
                 ClientFile clientFile = this->clientFileView.getClientFile();
                 ClientFileContainer &container = this->model.getClientFileContainer();
-                container.add(student);
+                container.add(ClientFile);
             }
             break;
             case 2: {  //??
@@ -94,7 +88,7 @@ void controller::runClientsFile(){
     }while(option != 0);
 }
 
-void controller:: runEmployees(){
+void Controller:: runEmployees(){
     int option = -1;
     do{
         option = this->view.menuEmployees();
@@ -154,7 +148,7 @@ void controller:: runEmployees(){
     }while(option != 0);
 }
 
-void controller::runWorkshops(){
+void Controller::runWorkshops(){
 
     int option = -1;
     do{
@@ -188,3 +182,4 @@ void controller::runStores(){
     }
 }
 */
+}

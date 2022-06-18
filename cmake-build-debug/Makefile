@@ -57,10 +57,10 @@ RM = "/Applications/CLion 2.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5
+CMAKE_SOURCE_DIR = /Users/anarita/Desktop/GitHub/fsoft2022_1A_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/CMakeFiles /Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,101 +153,269 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-source/MakeupStore.o: source/MakeupStore.cpp.o
-.PHONY : source/MakeupStore.o
+mock/mockData.o: mock/mockData.cpp.o
+.PHONY : mock/mockData.o
 
 # target to build an object file
-source/MakeupStore.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/MakeupStore.cpp.o
-.PHONY : source/MakeupStore.cpp.o
+mock/mockData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.o
+.PHONY : mock/mockData.cpp.o
 
-source/MakeupStore.i: source/MakeupStore.cpp.i
-.PHONY : source/MakeupStore.i
+mock/mockData.i: mock/mockData.cpp.i
+.PHONY : mock/mockData.i
 
 # target to preprocess a source file
-source/MakeupStore.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/MakeupStore.cpp.i
-.PHONY : source/MakeupStore.cpp.i
+mock/mockData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.i
+.PHONY : mock/mockData.cpp.i
 
-source/MakeupStore.s: source/MakeupStore.cpp.s
-.PHONY : source/MakeupStore.s
+mock/mockData.s: mock/mockData.cpp.s
+.PHONY : mock/mockData.s
 
 # target to generate assembly for a file
-source/MakeupStore.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/MakeupStore.cpp.s
-.PHONY : source/MakeupStore.cpp.s
+mock/mockData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.s
+.PHONY : mock/mockData.cpp.s
 
-source/client.o: source/client.cpp.o
-.PHONY : source/client.o
+source/Controllers/controller.o: source/Controllers/controller.cpp.o
+.PHONY : source/Controllers/controller.o
 
 # target to build an object file
-source/client.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/client.cpp.o
-.PHONY : source/client.cpp.o
+source/Controllers/controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.o
+.PHONY : source/Controllers/controller.cpp.o
 
-source/client.i: source/client.cpp.i
-.PHONY : source/client.i
+source/Controllers/controller.i: source/Controllers/controller.cpp.i
+.PHONY : source/Controllers/controller.i
 
 # target to preprocess a source file
-source/client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/client.cpp.i
-.PHONY : source/client.cpp.i
+source/Controllers/controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.i
+.PHONY : source/Controllers/controller.cpp.i
 
-source/client.s: source/client.cpp.s
-.PHONY : source/client.s
+source/Controllers/controller.s: source/Controllers/controller.cpp.s
+.PHONY : source/Controllers/controller.s
 
 # target to generate assembly for a file
-source/client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/client.cpp.s
-.PHONY : source/client.cpp.s
+source/Controllers/controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.s
+.PHONY : source/Controllers/controller.cpp.s
 
-source/controller.o: source/controller.cpp.o
-.PHONY : source/controller.o
+source/Model/ClientFile.o: source/Model/ClientFile.cpp.o
+.PHONY : source/Model/ClientFile.o
 
 # target to build an object file
-source/controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/controller.cpp.o
-.PHONY : source/controller.cpp.o
+source/Model/ClientFile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.o
+.PHONY : source/Model/ClientFile.cpp.o
 
-source/controller.i: source/controller.cpp.i
-.PHONY : source/controller.i
+source/Model/ClientFile.i: source/Model/ClientFile.cpp.i
+.PHONY : source/Model/ClientFile.i
 
 # target to preprocess a source file
-source/controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/controller.cpp.i
-.PHONY : source/controller.cpp.i
+source/Model/ClientFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.i
+.PHONY : source/Model/ClientFile.cpp.i
 
-source/controller.s: source/controller.cpp.s
-.PHONY : source/controller.s
+source/Model/ClientFile.s: source/Model/ClientFile.cpp.s
+.PHONY : source/Model/ClientFile.s
 
 # target to generate assembly for a file
-source/controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/controller.cpp.s
-.PHONY : source/controller.cpp.s
+source/Model/ClientFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.s
+.PHONY : source/Model/ClientFile.cpp.s
 
-source/dataConsistencyException.o: source/dataConsistencyException.cpp.o
-.PHONY : source/dataConsistencyException.o
+source/Model/ClientFileContainer.o: source/Model/ClientFileContainer.cpp.o
+.PHONY : source/Model/ClientFileContainer.o
 
 # target to build an object file
-source/dataConsistencyException.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/dataConsistencyException.cpp.o
-.PHONY : source/dataConsistencyException.cpp.o
+source/Model/ClientFileContainer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.o
+.PHONY : source/Model/ClientFileContainer.cpp.o
 
-source/dataConsistencyException.i: source/dataConsistencyException.cpp.i
-.PHONY : source/dataConsistencyException.i
+source/Model/ClientFileContainer.i: source/Model/ClientFileContainer.cpp.i
+.PHONY : source/Model/ClientFileContainer.i
 
 # target to preprocess a source file
-source/dataConsistencyException.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/dataConsistencyException.cpp.i
-.PHONY : source/dataConsistencyException.cpp.i
+source/Model/ClientFileContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.i
+.PHONY : source/Model/ClientFileContainer.cpp.i
 
-source/dataConsistencyException.s: source/dataConsistencyException.cpp.s
-.PHONY : source/dataConsistencyException.s
+source/Model/ClientFileContainer.s: source/Model/ClientFileContainer.cpp.s
+.PHONY : source/Model/ClientFileContainer.s
 
 # target to generate assembly for a file
-source/dataConsistencyException.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/dataConsistencyException.cpp.s
-.PHONY : source/dataConsistencyException.cpp.s
+source/Model/ClientFileContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.s
+.PHONY : source/Model/ClientFileContainer.cpp.s
+
+source/Model/Date.o: source/Model/Date.cpp.o
+.PHONY : source/Model/Date.o
+
+# target to build an object file
+source/Model/Date.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.o
+.PHONY : source/Model/Date.cpp.o
+
+source/Model/Date.i: source/Model/Date.cpp.i
+.PHONY : source/Model/Date.i
+
+# target to preprocess a source file
+source/Model/Date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.i
+.PHONY : source/Model/Date.cpp.i
+
+source/Model/Date.s: source/Model/Date.cpp.s
+.PHONY : source/Model/Date.s
+
+# target to generate assembly for a file
+source/Model/Date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.s
+.PHONY : source/Model/Date.cpp.s
+
+source/Model/Employee.o: source/Model/Employee.cpp.o
+.PHONY : source/Model/Employee.o
+
+# target to build an object file
+source/Model/Employee.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.o
+.PHONY : source/Model/Employee.cpp.o
+
+source/Model/Employee.i: source/Model/Employee.cpp.i
+.PHONY : source/Model/Employee.i
+
+# target to preprocess a source file
+source/Model/Employee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.i
+.PHONY : source/Model/Employee.cpp.i
+
+source/Model/Employee.s: source/Model/Employee.cpp.s
+.PHONY : source/Model/Employee.s
+
+# target to generate assembly for a file
+source/Model/Employee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.s
+.PHONY : source/Model/Employee.cpp.s
+
+source/Model/EmployeeContainer.o: source/Model/EmployeeContainer.cpp.o
+.PHONY : source/Model/EmployeeContainer.o
+
+# target to build an object file
+source/Model/EmployeeContainer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.o
+.PHONY : source/Model/EmployeeContainer.cpp.o
+
+source/Model/EmployeeContainer.i: source/Model/EmployeeContainer.cpp.i
+.PHONY : source/Model/EmployeeContainer.i
+
+# target to preprocess a source file
+source/Model/EmployeeContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.i
+.PHONY : source/Model/EmployeeContainer.cpp.i
+
+source/Model/EmployeeContainer.s: source/Model/EmployeeContainer.cpp.s
+.PHONY : source/Model/EmployeeContainer.s
+
+# target to generate assembly for a file
+source/Model/EmployeeContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.s
+.PHONY : source/Model/EmployeeContainer.cpp.s
+
+source/Model/MakeupStore.o: source/Model/MakeupStore.cpp.o
+.PHONY : source/Model/MakeupStore.o
+
+# target to build an object file
+source/Model/MakeupStore.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.o
+.PHONY : source/Model/MakeupStore.cpp.o
+
+source/Model/MakeupStore.i: source/Model/MakeupStore.cpp.i
+.PHONY : source/Model/MakeupStore.i
+
+# target to preprocess a source file
+source/Model/MakeupStore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.i
+.PHONY : source/Model/MakeupStore.cpp.i
+
+source/Model/MakeupStore.s: source/Model/MakeupStore.cpp.s
+.PHONY : source/Model/MakeupStore.s
+
+# target to generate assembly for a file
+source/Model/MakeupStore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.s
+.PHONY : source/Model/MakeupStore.cpp.s
+
+source/Model/Workshop.o: source/Model/Workshop.cpp.o
+.PHONY : source/Model/Workshop.o
+
+# target to build an object file
+source/Model/Workshop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o
+.PHONY : source/Model/Workshop.cpp.o
+
+source/Model/Workshop.i: source/Model/Workshop.cpp.i
+.PHONY : source/Model/Workshop.i
+
+# target to preprocess a source file
+source/Model/Workshop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.i
+.PHONY : source/Model/Workshop.cpp.i
+
+source/Model/Workshop.s: source/Model/Workshop.cpp.s
+.PHONY : source/Model/Workshop.s
+
+# target to generate assembly for a file
+source/Model/Workshop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.s
+.PHONY : source/Model/Workshop.cpp.s
+
+source/Model/WorkshopContainer.o: source/Model/WorkshopContainer.cpp.o
+.PHONY : source/Model/WorkshopContainer.o
+
+# target to build an object file
+source/Model/WorkshopContainer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o
+.PHONY : source/Model/WorkshopContainer.cpp.o
+
+source/Model/WorkshopContainer.i: source/Model/WorkshopContainer.cpp.i
+.PHONY : source/Model/WorkshopContainer.i
+
+# target to preprocess a source file
+source/Model/WorkshopContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.i
+.PHONY : source/Model/WorkshopContainer.cpp.i
+
+source/Model/WorkshopContainer.s: source/Model/WorkshopContainer.cpp.s
+.PHONY : source/Model/WorkshopContainer.s
+
+# target to generate assembly for a file
+source/Model/WorkshopContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.s
+.PHONY : source/Model/WorkshopContainer.cpp.s
+
+source/Model/person.o: source/Model/person.cpp.o
+.PHONY : source/Model/person.o
+
+# target to build an object file
+source/Model/person.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.o
+.PHONY : source/Model/person.cpp.o
+
+source/Model/person.i: source/Model/person.cpp.i
+.PHONY : source/Model/person.i
+
+# target to preprocess a source file
+source/Model/person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.i
+.PHONY : source/Model/person.cpp.i
+
+source/Model/person.s: source/Model/person.cpp.s
+.PHONY : source/Model/person.s
+
+# target to generate assembly for a file
+source/Model/person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.s
+.PHONY : source/Model/person.cpp.s
 
 # Help Target
 help:
@@ -261,18 +429,39 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... source/MakeupStore.o"
-	@echo "... source/MakeupStore.i"
-	@echo "... source/MakeupStore.s"
-	@echo "... source/client.o"
-	@echo "... source/client.i"
-	@echo "... source/client.s"
-	@echo "... source/controller.o"
-	@echo "... source/controller.i"
-	@echo "... source/controller.s"
-	@echo "... source/dataConsistencyException.o"
-	@echo "... source/dataConsistencyException.i"
-	@echo "... source/dataConsistencyException.s"
+	@echo "... mock/mockData.o"
+	@echo "... mock/mockData.i"
+	@echo "... mock/mockData.s"
+	@echo "... source/Controllers/controller.o"
+	@echo "... source/Controllers/controller.i"
+	@echo "... source/Controllers/controller.s"
+	@echo "... source/Model/ClientFile.o"
+	@echo "... source/Model/ClientFile.i"
+	@echo "... source/Model/ClientFile.s"
+	@echo "... source/Model/ClientFileContainer.o"
+	@echo "... source/Model/ClientFileContainer.i"
+	@echo "... source/Model/ClientFileContainer.s"
+	@echo "... source/Model/Date.o"
+	@echo "... source/Model/Date.i"
+	@echo "... source/Model/Date.s"
+	@echo "... source/Model/Employee.o"
+	@echo "... source/Model/Employee.i"
+	@echo "... source/Model/Employee.s"
+	@echo "... source/Model/EmployeeContainer.o"
+	@echo "... source/Model/EmployeeContainer.i"
+	@echo "... source/Model/EmployeeContainer.s"
+	@echo "... source/Model/MakeupStore.o"
+	@echo "... source/Model/MakeupStore.i"
+	@echo "... source/Model/MakeupStore.s"
+	@echo "... source/Model/Workshop.o"
+	@echo "... source/Model/Workshop.i"
+	@echo "... source/Model/Workshop.s"
+	@echo "... source/Model/WorkshopContainer.o"
+	@echo "... source/Model/WorkshopContainer.i"
+	@echo "... source/Model/WorkshopContainer.s"
+	@echo "... source/Model/person.o"
+	@echo "... source/Model/person.i"
+	@echo "... source/Model/person.s"
 .PHONY : help
 
 

@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "fsoft2022_1A_5::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fsoft2022_1A_5-Debug-4edae1452ad3075d325b.json",
+					"jsonFile" : "target-fsoft2022_1A_5-Debug-aa846106497e9faaacfb.json",
 					"name" : "fsoft2022_1A_5",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug",
-		"source" : "/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5"
+		"build" : "/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug",
+		"source" : "/Users/anarita/Desktop/GitHub/fsoft2022_1A_5"
 	},
 	"version" : 
 	{

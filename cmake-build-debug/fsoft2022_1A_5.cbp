@@ -8,42 +8,50 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug"/>
+				<Option working_dir="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug"/>
+				<Option working_dir="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug"/>
+				<Option working_dir="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fsoft2022_1A_5">
-				<Option output="/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/fsoft2022_1A_5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug"/>
+				<Option output="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/fsoft2022_1A_5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/mock"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Controllers"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Controllers"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/exceptions"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/exceptions"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/views"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -52,19 +60,27 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsoft2022_1A_5"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsoft2022_1A_5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fsoft2022_1A_5/fast">
-				<Option output="/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/fsoft2022_1A_5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug"/>
+				<Option output="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/fsoft2022_1A_5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/mock"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Controllers"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Controllers"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/exceptions"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/exceptions"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/views"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -73,32 +89,83 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsoft2022_1A_5/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsoft2022_1A_5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/headers/client.h">
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Controllers/controller.h">
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
-		<Unit filename="/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/main.cpp">
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model/ClientFile.h">
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
-		<Unit filename="/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/source/MakeupStore.cpp">
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model/ClientFileContainer.h">
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
-		<Unit filename="/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/source/client.cpp">
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model/Date.h">
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
-		<Unit filename="/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/source/controller.cpp">
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model/EmployeeContainer.h">
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
-		<Unit filename="/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/source/dataConsistencyException.cpp">
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model/MakeupStore.h">
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
-		<Unit filename="/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/CMakeLists.txt">
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model/Person.h">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model/Workshop.h">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model/WorkshopContainer.h">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model/employee.h">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/main.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/mock/mockData.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/mock/mockData.h">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Controllers/controller.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/ClientFile.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/ClientFileContainer.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/Date.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/Employee.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/EmployeeContainer.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/MakeupStore.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/Workshop.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/WorkshopContainer.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/person.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
