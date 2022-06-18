@@ -2,27 +2,24 @@
 #include <string>
 #include "employee.h"
 
-
 using namespace std;
 
 class Workshop{
 private:
-    string segmentation;
     string store;
     Employee employees;
-
+    string segmentation;
 public:
-    Workshop(string segmentation, string store, Employee employees);
-    Workshop(const Workshop &obj);
-    ~Workshop();
+    Workshop(string store, Employee employees, string segmentation);
+    Workshop();
 
-    Workshop* getWorkshop();
-    void setSegmentation(string segmentation);
+    string getStore() const;
     void setStore(string store);
-    void setEmployee(Employee employee);
 
-    bool operator == (Workshop obj);
-    bool operator == (string obj);
-    bool operator == (Employee obj);
+    Employee getEmployee() const;
+    void setEmployee(Employee employees);
 
+    string getSegmentation() const;
+    void setSegmentation(string segmentation);
 };
+
