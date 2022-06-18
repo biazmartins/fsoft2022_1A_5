@@ -6,7 +6,7 @@ ClientFile::ClientFile(string name, string email, int phone_number) {
     this->phone_number = phone_number;
 }
 
-ClientFile::ClientFile(){
+ClientFile::ClientFile(){ //
     this->name = "none";
     this->email= "none";
     this->phone_number = 0;
