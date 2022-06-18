@@ -14,7 +14,7 @@ private:
 
 public:
     ClientFile(string name, string email, int phone_number);
-    ~ClientFile();
+    ClientFile();
 
     string getName() const;
     void setName(string name);
