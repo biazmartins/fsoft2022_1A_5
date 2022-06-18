@@ -1,43 +1,41 @@
-//
-// Created by beatr on 06/06/2022.
-//
+#include "Workshop.h"
+#include "WorkshopContainer.h"
 
 
-#include "C:\Users\beatr\AppData\Roaming\SPB_Data\fsoft2022_1A_5\headers\Model\WorkshopContainer.h"
+using namespace std;
 
-
-list<Workshop>::iterator WorkshopContainer::search(char store){
+list<Workshop>::iterator WorkshopContainer::search(string segmentation){
     list<Workshop>::iterator it = this->workshop.begin();
-    for(;it != this->workshop.end(); ++it){
-        if((*it)== store)
+    for(; it != this->workshop.end(); ++it){
+        if((it->getSegmentation()) == segmentation){
             return it;
+        }
     }
     return it;
 }
 
-list<Workshop>::iterator WorkshopContainer::search(char employee){
-    list<Workshop>::iterator it =this->workshop.begin();
-    for(;it != this->workshop.end(); ++it){
-        if((*it)== employee)
-            return it;
-    }
-    return it;
+list<Workshop>WorkshopContainer::getAll(){
+    list<Workshop> newlist (this->workshop);
+    return newlist;
 }
 
-list<Workshop>::iterator WorkshopContainer::search(char segmentation){
-    list<Workshop>::iterator it =this->workshop.begin();
-    for(;it != this->workshop.end(); ++it){
-        if((*it)== segmentation)
-            return it;
+void WorkshopContainer::add(Workshop evento) {
+    list<Workshop>::iterator it = search(evento.getSegmentation()); //procura se um evento existe ou nao, se retornar a ultima posição da lista é porque nao existe
+    if (it == this->workshop.end()) {
+        this->workshop.push_back(evento); //adicionar um evento na ultima posição
     }
-    return it;
 }
 
-list<Workshop>::iterator WorkshopContainer::search(char date){
-    list<Workshop>::iterator it =this->workshop.begin();
-    for(;it != this->workshop.end(); ++it){
-        if((*it)== date)
-            return it;
+void WorkshopContainer::remove(string segmentation) {
+    list<Workshop>::iterator it = search(segmentation);
+    if (it != this->workshop.end()) {
+        this->workshop.erase(it);
     }
-    return it;
+}
+
+void WorkshopContainer::update(string segmentation){
+    list<Workshop>::iterator it = search(segmentation);
+    if(it != this->workshop.end()){
+        it->setSegmentation(segmentation);
+    }
 }
