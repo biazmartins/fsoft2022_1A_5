@@ -14,7 +14,7 @@ private:
     string store; //location
 public:
     Employee(string name,string specialty, string store);
-    ~Employee();
+    Employee();
 
     string getName() const;
     void setName(string name);
