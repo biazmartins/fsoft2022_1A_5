@@ -12,7 +12,7 @@ protected:
     bool isNameValid(string name);
 public:
     Person(string name);
-    ~Person();
+    Person();
     string getName() const;
     void setName(string name);
 };
