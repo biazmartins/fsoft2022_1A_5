@@ -1,35 +1,40 @@
 #include "Workshop.h"
 
+Workshop::Workshop(string store, Employee employees, string segmentation){
+    this->store = store;
+    this->employees = employees;
+    this->segmentation = segmentation;
+}
+
 Workshop::Workshop(){
-    this->name = "";
-    setDataForConsistency();
-}
-Workshop::Workshop(string name){
-    this->name = name;
-    setDataForConsistency();
-}
-Workshop::Workshop(Workshop obj){
-    this->name = obj.name;
-
-    this->employees = obj.employees;
-    this->store = obj.store;
-    this->segmentation = obj.segmentation;
-    setDataForConsistency()
+    this->store = store;
+    this->employees = employees;
+    this->segmentation = segmentation;
 }
 
-const string& Workshop::getName() const {
-    return name;
-}
-
-void Workshop::setName(string name){
-    this->name =name;
-}
-EmployeesContainer & Workshop::getEmployeesContainer(){
-    return this->employees;
-}
-MakeupStoreContainer & Workshop::getEmployeesContainer(){
+string Workshop::getStore() const {
     return this->store;
 }
-SegmentationContainer & Workshop::getEmployeesContainer(){
+
+void Workshop::setStore(string store) {
+    this->store= store;
+}
+
+Employee Workshop::getEmployee() const {
+    return this->employees;
+}
+
+void Workshop::setEmployee(Employee employees) {
+    this->employees= employees;
+}
+
+string Workshop::getSegmentation() const {
     return this->segmentation;
 }
+
+void Workshop::setSegmentation(string segmentation) {
+    this->segmentation= segmentation;
+}
+
+
+
