@@ -40,7 +40,7 @@ void Controller::runClientFile(){
                 container.add(clientFile);
             }
             break;
-            case 2: {  //??
+            case 2: {
                 try{
                     int phone_number = Utils::getNumber("Enter the client phone number.");
                     ClientFileContainer& container = this->model.getClientFileContainer();
@@ -68,10 +68,9 @@ void Controller::runClientFile(){
             }
             break;
             case 5:{
-                cout<<this->model.getName()<<endl;
                 ClientFileContainer container = this->model.getClientFileContainer();
                 list<ClientFile> clientFile = container.getAll();
-                this->clientFileView.printClientsFile(clientsFile);
+                this->clientFileView.printClientsFile(clientFile);
             }
             break;
             default:
@@ -114,17 +113,14 @@ void Controller::runEmployees(){
 
             case 4: {
                 string name = Utils::getString ("Enter the employee name");
-                string email = Utils::getString ("Enter the employee email");
                 string specialty = Utils::getString ("Enter the employee specialty");
                 string store = Utils::getString ("Enter the employee store");
-                Date date = this->employeeView.getDate();
                 EmployeeContainer& container = this->model.getEmployeeContainer();
-                container.update(name, email, specialty, store, date);
+                container.update(name, specialty, store);
             }
             break;
 
             case 5: {
-                cout<<this->model.getName()<<endl;
                 EmployeeContainer container = this->model.getEmployeeContainer();
                 list<Employee> employees = container.getAll();
                 this->employeeView.printEmployee(employees);
