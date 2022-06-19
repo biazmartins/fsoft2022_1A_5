@@ -1,4 +1,4 @@
-#include "/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/headers/Exceptions/duplicatedDataException.h"
+#include "duplicatedDataException.h"
 
 duplicatedDataException::duplicatedDataException(string data){
     this->data = "Error: duplicated!";
