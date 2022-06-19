@@ -2,7 +2,7 @@
 #include "MakeupStore.h"
 #include "mockData.h"
 #include "controller.h"
-//comentario
+
 using namespace std;
 
 int main(){
