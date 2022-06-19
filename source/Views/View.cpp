@@ -55,6 +55,7 @@ int View::menuWorkshop(){
                 cout<<"1 - Schedule Workshop\n";
                 cout<<"2 - Consult Workshop Data\n";
                 cout<<"3 - Add Workshop\n";
+                cout<<"4 - Remove Workshop\n";
                 cout<<"\n0 - Exit\n";
                 option = Utils::getNumber("option");
             }while(option < 0 || option > 3);

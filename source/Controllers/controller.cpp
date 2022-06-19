@@ -79,45 +79,46 @@ void Controller::runClientFile(){
     }while(option != 0);
 }
 
-void Controller::runEmployees(){
+void Controller::runEmployees() {
     int option = -1;
-    do{
+    do {
         option = this->view.menuEmployees();
 
-        switch(option){
+        switch (option) {
             case 1: {
                 Employee employee = this->employeeView.getEmployee();
-                EmployeeContainer& container = this->model.getEmployeeContainer();
+                EmployeeContainer container = this->model.getEmployeeContainer();
                 container.add(employee);
             }
-            break;
+                break;
             case 2: {
-                try{
-                    string store = Utils::getString ("Enter the employee store.");
-                    string specialty = Utils::getString ("Enter the employee specialty.");
+                try {
+                    string store = Utils::getString("Enter the employee store.");
+                    string specialty = Utils::getString("Enter the employee specialty.");
                     EmployeeContainer container = this->model.getEmployeeContainer();
                     container.remove(store, specialty);
-                }catch(dataConsistencyException& e){
+                } catch (dataConsistencyException &e) {
                     string str(e.what());
-                    cout<<str<<endl; //da print do erro
+                    cout << str << endl; //da print do erro
                 }
             }
-            break;
+                break;
 
             case 3: {
                 string store = Utils::getString("Enter the employee store");
-                string specialty= Utils::getString("Enter the employee specialty");
-                EmployeeContainer& container = this->model.getEmployeeContainer();
+                string specialty = Utils::getString("Enter the employee specialty");
+                EmployeeContainer &container = this->model.getEmployeeContainer();
                 container.get(store, specialty);
+            }
                 break;
 
             case 4: {
-                string name = Utils::getString ("Enter the employee name");
-                string specialty = Utils::getString ("Enter the employee specialty");
-                string store = Utils::getString ("Enter the employee store");
-                EmployeeContainer& container = this->model.getEmployeeContainer();
+                string name = Utils::getString("Enter the employee name");
+                string specialty = Utils::getString("Enter the employee specialty");
+                string store = Utils::getString("Enter the employee store");
+                EmployeeContainer &container = this->model.getEmployeeContainer();
                 container.update(name, specialty, store);
-            }
+                }
             break;
 
             case 5: {
@@ -128,25 +129,43 @@ void Controller::runEmployees(){
             break;
             default:
                 break;
-        }
-    }while(option != 0);
+            }
+        }while (option != 0);
 }
 
-void Controller::runWorkshops(){
+void Controller::runWorkshops() {
     int option = -1;
-    do{
+    do {
         option = this->view.menuWorkshop();
 
-        switch(option){
+        switch (option) {
             case 1: {
-                Workshop workshop = this->workshop.getWorkshop();
-                WorkshopContainer &container = this ->model.getWorkshopContainer();
-                container.add(workshop);
+
             }
-            break;
+                break;
             case 2: {
 
             }
+                break;
+            case 3: {
+                Workshop workshop = this->workshopView.getWorkshop();
+                WorkshopContainer container = this->model.getWorkshopContainer();
+                container.add(workshop);
+            }
+            case 4: {
+                try {
+                    string segmentation = Utils::getSegmentation("Enter the Segmentation");
+                    WorkshopContainer container = this->model.getWorkshopContainer();
+                    container.remove(segmentation);
+                } catch (dataConsistencyException &e) {
+                    string str(e.what());
+                    cout << str << endl;
+                }
+            }
+
+
         }
-    }
+
+
+    } while (option != 0);
 }

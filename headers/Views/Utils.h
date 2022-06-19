@@ -8,6 +8,7 @@ class Utils{
 public:
     static int getNumber(const string& label);
     static string getString(const string& label);
+    static string getSegmentation(const string& label);
 };
 
 #endif //HEADERS_VIEWS_UTILS_H
