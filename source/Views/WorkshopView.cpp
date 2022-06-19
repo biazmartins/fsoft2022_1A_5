@@ -1,4 +1,4 @@
-
+#include<iostream>
 #include "WorkshopView.h"
 
 using namespace std;
@@ -8,7 +8,7 @@ using namespace std;
     Employee employees;
     string segmentation;
 
-    Workshop workshop("store", "employees", "segmentation"); //criação de um construtor com 3 parâmetros
+    Workshop workshop("store", Employees *employees, "segmentation"); //criação de um construtor com 3 parâmetros
     bool flag = false;
     do
         try {
@@ -24,9 +24,7 @@ using namespace std;
 }
 
 void WorkshopView::printWorkshop(Workshop *workshop) { //dá print a apenas 1 workshop
-    cout<<workshop->getStore()<<":"<<endl;
-    cout<<workshop->getEmployee()<<":"<<endl;
-    cout<<workshop->getSegmentation()<<":"<<endl;
+    cout<<workshop->getStore()<<":"<< workshop->getEmployee()<<":"<<workshop->getSegmentation()<<":"<<endl;
 }
 
 void WorkshopView::printWorkshop(list<Workshop>& workshops) { //é um loop que vai chamar a função de cima várias vezes, ou seja, vai dar print a várias funções, isto é, a uma lista de workshops

@@ -12,9 +12,9 @@ Date :: Date(int day, int month, int year) { //contructor, o date é composto po
     this->year = year;
     this->day = day;
 }
-//?
+
 void Date::getDate(){
-    return this -> date;
+    this ->date = date;
 }
 
 void Date::setDate(int day, int month, int year) { //setDate é para alterar ou adicionar uma data, neste casos alterar ou adicionar um dia/mês/ano
