@@ -1,12 +1,9 @@
-//
-// Created by Ana Rita Maia Barbosa da Silva on 01/06/2022.
-//
-
 #include <iostream>
 #include <string>
 #include <tuple>
 #include "controller.h"
 #include "Utils.h"
+#include "dataConsistencyException.h"
 
 using namespace std;
 
@@ -40,7 +37,7 @@ void Controller::runClientFile(){
             case 1: {
                 ClientFile clientFile = this->clientFileView.getClientFile();
                 ClientFileContainer &container = this->model.getClientFileContainer();
-                container.add(ClientFile);
+                container.add(clientFile);
             }
             break;
             case 2: {  //??
@@ -48,7 +45,7 @@ void Controller::runClientFile(){
                     int phone_number = Utils::getNumber("Enter the client phone number.");
                     ClientFileContainer& container = this->model.getClientFileContainer();
                     container.remove(phone_number);
-                }catch(DataConsistencyException& e){
+                }catch(dataConsistencyException& e){
                     string str(e.what());
                     cout<<str<<endl;
                 }
@@ -79,7 +76,7 @@ void Controller::runClientFile(){
                 cout<<this->model.getName()<<endl;
                 ClientFileContainer container = this->model.getClientFileContainer();
                 list<ClientFile> clientFile = container.getAll();
-                this->clientFileView.printClients(clients);
+                this->clientFileView.printClientsFile(clientsFile);
             }
             break;
             default:
@@ -88,7 +85,7 @@ void Controller::runClientFile(){
     }while(option != 0);
 }
 
-void Controller:: runEmployees(){
+void Controller::runEmployees(){
     int option = -1;
     do{
         option = this->view.menuEmployees();
@@ -105,7 +102,7 @@ void Controller:: runEmployees(){
                     string email = Utils::getString ("Enter the employee email.");
                     EmployeeContainer& container = this->model.getEmployeeContainer();
                     container.remove(email);
-                }catch(DataConsistencyException& e){
+                }catch(dataConsistencyException& e){
                     string str(e.what());
                     cout<<str<<endl;
                 }
@@ -131,15 +128,15 @@ void Controller:: runEmployees(){
                 string store = Utils::getString ("Enter the employee store");
                 Date date = this->employeeView.getDate();
                 EmployeeContainer& container = this->model.getEmployeeContainer();
-                container.update(name, email, specialtu, store, date);
+                container.update(name, email, specialty, store, date);
             }
             break;
 
             case 5: {
                 cout<<this->model.getName()<<endl;
                 EmployeeContainer container = this->model.getEmployeeContainer();
-                list<Employees> employees = container.getAll();
-                this->employeeView.printEmployees(employees);
+                list<Employee> employees = container.getAll();
+                this->employeeView.printEmployee(employees);
             }
             break;
             default:
@@ -149,7 +146,6 @@ void Controller:: runEmployees(){
 }
 
 void Controller::runWorkshops(){
-
     int option = -1;
     do{
         option = this->view.menuWorkshop();
@@ -167,19 +163,4 @@ void Controller::runWorkshops(){
             }
         }
     }
-}
-
-
-/*
-void controller::runStores(){
-    int option = -1;
-    do {
-        option = this->view.menuStores();
-
-        switch(option){
-
-        }
-    }
-}
-*/
 }
