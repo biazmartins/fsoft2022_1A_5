@@ -9,7 +9,7 @@ int main(){
     MakeupStore makeupStore ();
 
     mockData mock;
-    mock.generateData(makeupStore);
+    mock.generateData(MakeupStore);
 
     Controller controller(makeupStore);
     controller.run();

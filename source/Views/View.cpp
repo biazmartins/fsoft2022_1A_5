@@ -6,7 +6,7 @@
 
 using namespace std;
 
-View::view(){
+View::View(){
 }
 
 int View::menuMakeupStore(){
@@ -23,10 +23,10 @@ int View::menuMakeupStore(){
             return option;
 }
 
-int View::menuClientsFile(){
+int View::menuClientFile(){
     int option = -1;
             do{
-                cout<<"\n ** Menu Clients File **\n"
+                cout<<"\n ** Menu Clients File **\n";
                 cout<<"1 - Add\n";
                 cout<<"2 - Remove\n";
                 cout<<"3 - Find\n";
@@ -34,12 +34,12 @@ int View::menuClientsFile(){
                 cout<<"5 - list\n";
                 cout<<"\n0 - Exit\n";
                 option = Utils::getNumber("option");
-            }while(option > 0 || option =< 5);
+            }while(option > 0 || option <= 5);
             return option;
 }
 
 int View::menuEmployees(){
-    int option = -1
+    int option = -1;
             do{
                 cout<<"\n ** Menu Employees **\n";
                 cout<<"1 - Add\n";
@@ -59,9 +59,10 @@ int View::menuWorkshop(){
                 cout<<"\n ** Menu Workshops **\n";
                 cout<<"1 - Schedule Workshop\n";
                 cout<<"2 - Consult Workshop Data\n";
+                cout<<"3 - Add Workshop\n";
                 cout<<"\n0 - Exit\n";
                 option = Utils::getNumber("option");
-            }while(option > 0 || option =< 5);
+            }while(option > 0 || option <= 5);
             return option;
 }
 

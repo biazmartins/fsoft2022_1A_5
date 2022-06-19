@@ -10,7 +10,7 @@ public:
     View();
     int menuMakeupStore();
     int menuClientFile();
-    int menuEmployee();
+    int menuEmployees();
     int menuWorkshop();
 
 };

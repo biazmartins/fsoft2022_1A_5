@@ -9,20 +9,24 @@ using namespace std;
 
 class mockData{
 private:
-    const int WORKSHOP_NR = 3;
-    const vector<string> name_employees ={"Rita", "Beatriz", "Bibi", "Anita", "Joana", "Luísa", "João", "Pedro", "Rui"};
-    const vector<string> initial_employees ={"RT", "BEA", "BB", "ANT", "JON","LU", "J", "P", "R"};
+    const int WORKSHOP_NR = 7;
+    const vector<string> name_clientFile = ("Ricardo", "André", "Maria");
+    const vector<int> phoneNumber_clientFile = ("934738495", "947389653", "913472854");
+    const vector<string> email_clientFile = ("123@gmail.com", "129@gmail.com", "103@gmail.com");
+    const vector<string> specialty_employee = ("Maquilhar", "");
+    const vector<string> store_employee = ("Porto", "Lisboa", "Faro");
+    const vector<string> name_employees ={"Rita", "Beatriz", "Maria"};
     const vector<string> name_workshops ={"maquilhagem de olhos", "maquilhagem de lábios", "maquilhagem total"};
 
     Date genDate();
 
     void insertEmployees(EmployeeContainer& container);
-    void insertClients(ClientFileContainer& container);
+    void insertClientsFile(ClientFileContainer& container);
     Workshop * getRandomWorkshop(WorkshopContainer& Workshops);
     void insertWorkshops(EmployeeContainer& employee);
 
 public:
-    void generateData(MakeupStore& makeupStore);
+    void generateData(MakeupStore &makeupStore);
 };
 
 #endif //MOCK_MOCKDATA_H
