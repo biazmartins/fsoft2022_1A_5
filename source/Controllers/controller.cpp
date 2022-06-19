@@ -94,26 +94,22 @@ void Controller::runEmployees(){
             break;
             case 2: {
                 try{
-                    string email = Utils::getString ("Enter the employee email.");
-                    EmployeeContainer& container = this->model.getEmployeeContainer();
-                    container.remove(email);
+                    string store = Utils::getString ("Enter the employee store.");
+                    string specialty = Utils::getString ("Enter the employee specialty.");
+                    EmployeeContainer container = this->model.getEmployeeContainer();
+                    container.remove(store, specialty);
                 }catch(dataConsistencyException& e){
                     string str(e.what());
-                    cout<<str<<endl;
+                    cout<<str<<endl; //da print do erro
                 }
             }
             break;
 
             case 3: {
-                string email = Utils::getString("Enter the employee email");
+                string store = Utils::getString("Enter the employee store");
+                string specialty= Utils::getString("Enter the employee specialty");
                 EmployeeContainer& container = this->model.getEmployeeContainer();
-                Employee *ptr = container.get(email);
-                if(ptr != NULL){
-                    this->employeeView.printEmployee(ptr);
-                }else{
-                    cout<<"The employee does not exist." << endl;
-                }
-            }
+                container.get(store, specialty);
                 break;
 
             case 4: {
