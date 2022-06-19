@@ -6,8 +6,8 @@
 using namespace std;
 class Utils{
 public:
-    int getNumber(const string& label);
-    string getString(const string& label);
+    static int getNumber(const string& label);
+    static string getString(const string& label);
 };
 
 #endif //HEADERS_VIEWS_UTILS_H

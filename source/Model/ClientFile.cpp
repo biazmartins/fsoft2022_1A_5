@@ -26,10 +26,10 @@ void ClientFile::setEmail(string email) {// setEmail é para alterar ou adiciona
     this->email= email;
 }
 
-int ClientFile::getPhoneNumber() const {//
+int ClientFile::getPhoneNumber() const {//vai buscar o número de telefone do objeto criado
     return this->phone_number;
 }
 
-void ClientFile::setPhoneNumber(int phone_number) {
+void ClientFile::setPhoneNumber(int phone_number) {//setPhoneNumber é para alterar ou adicionar um número de telefone
     this->phone_number = phone_number;
 }

@@ -49,7 +49,7 @@ int View::menuEmployees(){
                 cout<<"5 - List\n";
                 cout<<"\n0 - Exit\n";
                 option = Utils::getNumber("option");
-            }while(option > 0 || option =< 5);
+            }while(option < 0 || option > 5);
             return option;
 }
 
@@ -62,7 +62,7 @@ int View::menuWorkshop(){
                 cout<<"3 - Add Workshop\n";
                 cout<<"\n0 - Exit\n";
                 option = Utils::getNumber("option");
-            }while(option > 0 || option <= 5);
+            }while(option < 0 || option > 5);
             return option;
 }
 

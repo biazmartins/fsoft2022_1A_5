@@ -4,8 +4,7 @@
 
 using namespace std;
 
-//Nesta parte do código, o utilizador está a percorrer a lista toda das fichas de empregados existentes
-
+//Nesta parte do código, o utilizador está a percorrer a lista toda dos funcionários existentes
 
 list<Employee>::iterator EmployeeContainer::search(string store, string specialty){
     list<Employee>::iterator it = this->employee.begin();
@@ -33,17 +32,17 @@ void EmployeeContainer::add(Employee empregado) {
 }
 
 void EmployeeContainer::remove(string store, string specialty) {
-    list<Employee>::iterator it = search(store, specialty);
+    list<Employee>::iterator it = search(store, specialty);//código semelhante ao da função anteriormente representada, ou seja, neste código procura-se se um funcionário existe ou não, se retornar a última posição da lista é porque nao existe
     if (it != this->employee.end()) {
-        this->employee.erase(it);
+        this->employee.erase(it);//remover o funcionário na última posição
     }
 }
 
 void EmployeeContainer::update(string store, string specialty){
-    list<Employee>::iterator it = search(store, specialty);
+    list<Employee>::iterator it = search(store, specialty);// procurar um funcionário (código semelhante aos representados
     if(it != this->employee.end()){
         it->setStore(store);
-        it->setSpecialty(specialty);
+        it->setSpecialty(specialty);//dar update nas alterações que possam ter acontecido na ficha do funcionário, isto é, pode-se ter alterado a loja em que ele trabalha ou a especialidade
     }
 }
 

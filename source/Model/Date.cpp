@@ -8,17 +8,21 @@
 
 using namespace std;
 
-Date :: Date() {
+Date :: Date() { //cpnstructor vazio
     this->month = this->day=1;
     this->year = 1990;
 }
-Date :: Date(int day, int month, int year) {
+Date :: Date(int day, int month, int year) { //contructor, o date é composto por um "day", um "month" e um "year"
     this->month = month;
     this->year = year;
     this->day = day;
 }
+//??
+void Date::getDate(){
+    return this -> date;
+}
 
-void Date ::setDate(int day, int month, int year) {
+void Date::setDate(int day, int month, int year) { //setDate é para alterar ou adicionar uma data, neste casos alterar ou adicionar um dia/mês/ano
     this->month = month;
     this->year = year;
     this->day = day;
