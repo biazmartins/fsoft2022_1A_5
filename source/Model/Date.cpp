@@ -17,7 +17,7 @@ Date :: Date(int day, int month, int year) { //contructor, o date é composto po
     this->year = year;
     this->day = day;
 }
-//??
+//?
 void Date::getDate(){
     return this -> date;
 }
