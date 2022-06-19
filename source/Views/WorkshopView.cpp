@@ -15,7 +15,7 @@ Workshop WorkshopView :: getWorkshop(EmployeeContainer & employees){
         try {
             flag = false;
             cout << "Workshop" << endl;
-            string initials = Utils::getString("Enter Employee Initials");
+            string name = Utils::getString("Enter Employee Initials");
             Employee *employee = employee.get(initials);
             workshop.setEmployee(employee);
 

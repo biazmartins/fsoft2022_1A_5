@@ -10,7 +10,7 @@ private:
 public:
     Workshop getWorkshop(EmployeeContainer & employees);
     void printWorkshop(Workshop *workshop);
-    void printWorkshop(Employee *employee);
+    void printWorkshop(Employee *employee, list<Emloyee>& employees);
 };
 
 #endif //HEADERS_VIEWS_WORKSHOPVIEW_H
