@@ -1,8 +1,3 @@
-
-
-//codigo semelhante ao do stor
-
-
 #include "Date.h"
 #include <string>
 

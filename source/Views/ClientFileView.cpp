@@ -1,7 +1,3 @@
-//
-// Created by Ana Rita Maia Barbosa da Silva on 06/06/2022.
-//
-
 #include <iostream>
 #include "ClientFileView.h"
 #include "Utils.h"
@@ -9,52 +5,33 @@
 
 using namespace std;
 
-Number ClientFileView::getNumber(){
+ClientFile ClientFileView::getClientFile(){
+    ClientFile clientFile("name", "email", 1);
     int phone_number;
-    bool flag = false;
+    bool flag = false; //
     do{
-        try{
+        try{//fazer uma ação
             flag = false;
             cout<<"Phone Number"<<endl;
-            int phone_number = Utils::getNumber ("Phone Number");
-            number.setNumber(phone_number);
-        }catch(invalidaDataException& e){
-            flag = true;
-        }
-    }while (flag == true);
-    return phone_number;
-}
-
-ClientFile ClientFileView::getClientFile(){
-    int phone_number;
-    char email;
-    ClientFile clientFile ("Name", phone_number, email);
-    bool flag = false;
-    do{
-        try{
-            flag = false;
-            cout<<"ClientFile"<<endl;
             string name = Utils::getString("name");
-            clientFile.setName(name);
-            stirng email = getString();    //?
-            clientFile.setEmail(enail); //?
-            int phone_number = Utils::getNumber("Phone Number");
-            clientFile.setPhoneNumber(phone_number);
-        }catch(invalidDataException& e){
-            flag = true;
+            string email = Utils::getString("email");
+            int phone_number = Utils::getNumber ("Phone Number");
+            clientFile.setPhoneNumber(phone_number); //?
+        }catch(invalidDataException& e){ //verificação se o que fiz anteriormente é invalida
+            flag = true;//se apanhar um erro
         }
-    }while(flag == true);
-    return clientFile;
+    }while (flag == true);//ciclo que se repete, se os dados forem invalidos ele vai fazer o ciclo até serem validos, marca true sempre que os dados forem válidos
+    return phone_number; //se for false, ou seja se os dados nao forem inválidos
 }
 
-void clientFileView::printClientFile(ClientFile *clientFile){
+void ClientFileView::printClientFile(ClientFile *clientFile){
     cout<<clientFile->getPhoneNumber()<<":"<<endl;
     cout<<clientFile->getName()<<":"<<endl;
     cout<<clientFile->getEmail()<<":"<<endl;
 }
 
 void ClientFileView::printClientsFile(list<ClientFile>& clientsFile){
-    for(list<ClientFile>::iterator it = students.begin(); it != clientsFile.end(); ++it){
+    for(list<ClientFile>::iterator it = clientsFile.begin(); it != clientsFile.end(); ++it){
         printClientFile(&*it);
     }
 }

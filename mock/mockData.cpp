@@ -22,7 +22,7 @@ void mockData::insertWorkshops(WorkshopContainer& container){
 }
 
     //?
-Workshop * mockData::getRandomWorkshop(WorkshopContainer &container){
+Workshop *mockData::getRandomWorkshop(WorkshopContainer &container){
     list<Workshop> listWorkshop = workshops.getAll();
     list<Workshop>::iterator it = listClass.begin();
     int is = rand() % listWorkshop.size();
