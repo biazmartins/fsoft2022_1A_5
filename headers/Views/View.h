@@ -3,6 +3,10 @@
 
 
 #include <string>
+#include "Utils.h"
+#include "invalidDataException.h"
+#include <iostream>
+#include <list>
 
 using namespace std;
 class View{
