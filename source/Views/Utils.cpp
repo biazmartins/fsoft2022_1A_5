@@ -29,9 +29,3 @@ string Utils::getString(const string& label){
     getline(cin, input);
     return input;
 }
-string Utils::getSegmentation(const string &label){
-    string segmentation;
-    cout<<label<<": ";
-    getline(cin, segmentation);
-    return segmentation;
-}

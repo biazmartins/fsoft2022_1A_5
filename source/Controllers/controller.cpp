@@ -154,7 +154,7 @@ void Controller::runWorkshops() {
             }
             case 4: {
                 try {
-                    string segmentation = Utils::getSegmentation("Enter the Segmentation");
+                    string segmentation = Utils::getString("Enter the workshop Segmentation");
                     WorkshopContainer container = this->model.getWorkshopContainer();
                     container.remove(segmentation);
                 } catch (dataConsistencyException &e) {
