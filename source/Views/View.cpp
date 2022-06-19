@@ -12,10 +12,9 @@ int View::menuMakeupStore(){
                 cout<<"1 - ClientsFile\n";
                 cout<<"2 - Employees\n";
                 cout<<"3 - Workshops\n";
-                cout<<"4 - Stores\n";
                 cout<<"\n0 - Exit\n";
                 option = Utils::getNumber("option");
-            }while(option < 0 || option > 4);
+            }while(option < 0 || option > 3);
             return option;
 }
 
