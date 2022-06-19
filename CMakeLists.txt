@@ -76,7 +76,10 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_HEADERS_MODEL_DIR}/WorkshopContainer.h
         ${PROJECT_SOURCES_MODEL_DIR}/WorkshopContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/MakeupStore.h
-        ${PROJECT_SOURCES_MODEL_DIR}/MakeupStore.cpp)
+        ${PROJECT_SOURCES_MODEL_DIR}/MakeupStore.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/menu.h
+        ${PROJECT_SOURCES_MODEL_DIR}/menu.cpp
+        )
 
 
 set(PROJECT_HEADERS_VIEWS_DIR
