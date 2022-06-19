@@ -1,10 +1,7 @@
-//
-// Created by Ana Rita Maia Barbosa da Silva on 03/06/2022.
-//
-
 #ifndef HEADERS_CONTROLLERS_CONTROLLER_H
 #define HEADERS_CONTROLLERS_CONTROLLER_H
 
+//chamar as bibliotecas
 #include "View.h"
 #include "ClientFileView.h"
 #include "EmployeeView.h"
