@@ -1,18 +1,15 @@
-//
-// Created by Ana Rita Maia Barbosa da Silva on 10/06/2022.
-//
 
 #include <iostream>
-#include "/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/headers/Views/EmployeeView.h"
+#include "EmployeeView.h"
 #include "Utils.h"
-#include "/Users/anarita/Desktop/FSOFT3/fsoft2022_1A_5/headers/Exceptions/invalidDataException.h"
+#include "invalidDataException.h"
 
 using namespace std;
 
 Employee EmployeeView::getEmployee(){
-    char name;
-    char store;
-    char specialty;
+    string name;
+    string store;
+    string specialty;
     Employee employee ("name", "store", "specialty");
     bool flag = false;
     do{
@@ -21,7 +18,7 @@ Employee EmployeeView::getEmployee(){
             cout<<"Employee"<<endl;
             string name = Utils::getString("name");
             employee.setName(name);
-        }catch(invalidaDataException& e){
+        }catch(invalidDataException& e){
             flag = true;
         }
     }while(flag == true);
