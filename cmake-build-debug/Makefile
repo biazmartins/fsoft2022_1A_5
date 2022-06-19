@@ -201,78 +201,6 @@ source/Controllers/controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.s
 .PHONY : source/Controllers/controller.cpp.s
 
-source/Exceptions/dataConsistencyException.o: source/Exceptions/dataConsistencyException.cpp.o
-.PHONY : source/Exceptions/dataConsistencyException.o
-
-# target to build an object file
-source/Exceptions/dataConsistencyException.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.o
-.PHONY : source/Exceptions/dataConsistencyException.cpp.o
-
-source/Exceptions/dataConsistencyException.i: source/Exceptions/dataConsistencyException.cpp.i
-.PHONY : source/Exceptions/dataConsistencyException.i
-
-# target to preprocess a source file
-source/Exceptions/dataConsistencyException.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.i
-.PHONY : source/Exceptions/dataConsistencyException.cpp.i
-
-source/Exceptions/dataConsistencyException.s: source/Exceptions/dataConsistencyException.cpp.s
-.PHONY : source/Exceptions/dataConsistencyException.s
-
-# target to generate assembly for a file
-source/Exceptions/dataConsistencyException.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.s
-.PHONY : source/Exceptions/dataConsistencyException.cpp.s
-
-source/Exceptions/duplicatedDataException.o: source/Exceptions/duplicatedDataException.cpp.o
-.PHONY : source/Exceptions/duplicatedDataException.o
-
-# target to build an object file
-source/Exceptions/duplicatedDataException.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.o
-.PHONY : source/Exceptions/duplicatedDataException.cpp.o
-
-source/Exceptions/duplicatedDataException.i: source/Exceptions/duplicatedDataException.cpp.i
-.PHONY : source/Exceptions/duplicatedDataException.i
-
-# target to preprocess a source file
-source/Exceptions/duplicatedDataException.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.i
-.PHONY : source/Exceptions/duplicatedDataException.cpp.i
-
-source/Exceptions/duplicatedDataException.s: source/Exceptions/duplicatedDataException.cpp.s
-.PHONY : source/Exceptions/duplicatedDataException.s
-
-# target to generate assembly for a file
-source/Exceptions/duplicatedDataException.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.s
-.PHONY : source/Exceptions/duplicatedDataException.cpp.s
-
-source/Exceptions/invalidDataException.o: source/Exceptions/invalidDataException.cpp.o
-.PHONY : source/Exceptions/invalidDataException.o
-
-# target to build an object file
-source/Exceptions/invalidDataException.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.o
-.PHONY : source/Exceptions/invalidDataException.cpp.o
-
-source/Exceptions/invalidDataException.i: source/Exceptions/invalidDataException.cpp.i
-.PHONY : source/Exceptions/invalidDataException.i
-
-# target to preprocess a source file
-source/Exceptions/invalidDataException.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.i
-.PHONY : source/Exceptions/invalidDataException.cpp.i
-
-source/Exceptions/invalidDataException.s: source/Exceptions/invalidDataException.cpp.s
-.PHONY : source/Exceptions/invalidDataException.s
-
-# target to generate assembly for a file
-source/Exceptions/invalidDataException.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.s
-.PHONY : source/Exceptions/invalidDataException.cpp.s
-
 source/Model/ClientFile.o: source/Model/ClientFile.cpp.o
 .PHONY : source/Model/ClientFile.o
 
@@ -627,15 +555,6 @@ help:
 	@echo "... source/Controllers/controller.o"
 	@echo "... source/Controllers/controller.i"
 	@echo "... source/Controllers/controller.s"
-	@echo "... source/Exceptions/dataConsistencyException.o"
-	@echo "... source/Exceptions/dataConsistencyException.i"
-	@echo "... source/Exceptions/dataConsistencyException.s"
-	@echo "... source/Exceptions/duplicatedDataException.o"
-	@echo "... source/Exceptions/duplicatedDataException.i"
-	@echo "... source/Exceptions/duplicatedDataException.s"
-	@echo "... source/Exceptions/invalidDataException.o"
-	@echo "... source/Exceptions/invalidDataException.i"
-	@echo "... source/Exceptions/invalidDataException.s"
 	@echo "... source/Model/ClientFile.o"
 	@echo "... source/Model/ClientFile.i"
 	@echo "... source/Model/ClientFile.s"

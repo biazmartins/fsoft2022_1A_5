@@ -101,15 +101,6 @@
 		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Controllers/controller.h">
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
-		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Exceptions/dataConsistencyException.h">
-			<Option target="fsoft2022_1A_5"/>
-		</Unit>
-		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Exceptions/duplicatedDataException.h">
-			<Option target="fsoft2022_1A_5"/>
-		</Unit>
-		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Exceptions/invalidDataException.h">
-			<Option target="fsoft2022_1A_5"/>
-		</Unit>
 		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model/ClientFile.h">
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
@@ -162,15 +153,6 @@
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
 		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Controllers/controller.cpp">
-			<Option target="fsoft2022_1A_5"/>
-		</Unit>
-		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/dataConsistencyException.cpp">
-			<Option target="fsoft2022_1A_5"/>
-		</Unit>
-		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/duplicatedDataException.cpp">
-			<Option target="fsoft2022_1A_5"/>
-		</Unit>
-		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/invalidDataException.cpp">
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
 		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/ClientFile.cpp">

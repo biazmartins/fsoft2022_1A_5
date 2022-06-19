@@ -79,7 +79,7 @@ set(PROJECT_HEADERS_VIEWS_DIR
         ${PROJECT_HEADERS_DIR}/Views)
 
 set(PROJECT_SOURCES_VIEWS_DIR
-        ${PROJECT_HEADERS_DIR}/Views)
+        ${PROJECT_SOURCES_DIR}/Views)
 include_directories(
         ${PROJECT_HEADERS_VIEWS_DIR}
         ${PROJECT_SOURCES_VIEWS_DIR})
