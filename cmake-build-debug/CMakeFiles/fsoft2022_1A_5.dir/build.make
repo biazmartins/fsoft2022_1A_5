@@ -83,10 +83,80 @@ CMakeFiles/fsoft2022_1A_5.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/main.cpp -o CMakeFiles/fsoft2022_1A_5.dir/main.cpp.s
 
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.o: ../source/Views/Utils.cpp
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/Utils.cpp
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/Utils.cpp > CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.i
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/Utils.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.s
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.o: ../source/Views/View.cpp
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/View.cpp
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/View.cpp > CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.i
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/View.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.s
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.o: ../source/Views/ClientFileView.cpp
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/ClientFileView.cpp
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/ClientFileView.cpp > CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.i
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/ClientFileView.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.s
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.o: ../source/Views/EmployeeView.cpp
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/EmployeeView.cpp
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/EmployeeView.cpp > CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.i
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/EmployeeView.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.s
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.o: ../source/Views/WorkshopView.cpp
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/WorkshopView.cpp
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/WorkshopView.cpp > CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.i
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/WorkshopView.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.s
+
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.o: ../source/Model/ClientFile.cpp
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/ClientFile.cpp
 
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.i: cmake_force
@@ -100,7 +170,7 @@ CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.s: cmake_force
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.o: ../source/Model/Employee.cpp
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/Employee.cpp
 
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.i: cmake_force
@@ -114,7 +184,7 @@ CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.s: cmake_force
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.o: ../source/Model/Date.cpp
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/Date.cpp
 
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.i: cmake_force
@@ -128,7 +198,7 @@ CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.s: cmake_force
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.o: ../source/Model/person.cpp
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/person.cpp
 
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.i: cmake_force
@@ -139,38 +209,10 @@ CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/person.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.s
 
-CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
-CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o: ../source/Model/Workshop.cpp
-CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/Workshop.cpp
-
-CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/Workshop.cpp > CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.i
-
-CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/Workshop.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.s
-
-CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
-CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o: ../source/Model/WorkshopContainer.cpp
-CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/WorkshopContainer.cpp
-
-CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/WorkshopContainer.cpp > CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.i
-
-CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/WorkshopContainer.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.s
-
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.o: ../source/Model/ClientFileContainer.cpp
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/ClientFileContainer.cpp
 
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.i: cmake_force
@@ -184,7 +226,7 @@ CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.s: cmake_forc
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.o: ../source/Model/EmployeeContainer.cpp
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/EmployeeContainer.cpp
 
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.i: cmake_force
@@ -195,10 +237,38 @@ CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/EmployeeContainer.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.s
 
+CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
+CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o: ../source/Model/Workshop.cpp
+CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/Workshop.cpp
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/Workshop.cpp > CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.i
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/Workshop.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.s
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
+CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o: ../source/Model/WorkshopContainer.cpp
+CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/WorkshopContainer.cpp
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/WorkshopContainer.cpp > CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.i
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/WorkshopContainer.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.s
+
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.o: ../source/Model/MakeupStore.cpp
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/MakeupStore.cpp
 
 CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.i: cmake_force
@@ -209,10 +279,52 @@ CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/MakeupStore.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.s
 
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.o: ../source/Exceptions/dataConsistencyException.cpp
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/dataConsistencyException.cpp
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/dataConsistencyException.cpp > CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.i
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/dataConsistencyException.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.s
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.o: ../source/Exceptions/duplicatedDataException.cpp
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/duplicatedDataException.cpp
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/duplicatedDataException.cpp > CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.i
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/duplicatedDataException.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.s
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.o: ../source/Exceptions/invalidDataException.cpp
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/invalidDataException.cpp
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/invalidDataException.cpp > CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.i
+
+CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/invalidDataException.cpp -o CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.s
+
 CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
 CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.o: ../source/Controllers/controller.cpp
 CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Controllers/controller.cpp
 
 CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.i: cmake_force
@@ -226,7 +338,7 @@ CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.s: cmake_force
 CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/flags.make
 CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.o: ../mock/mockData.cpp
 CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.o: CMakeFiles/fsoft2022_1A_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.o -MF CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.o.d -o CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.o -c /Users/anarita/Desktop/GitHub/fsoft2022_1A_5/mock/mockData.cpp
 
 CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.i: cmake_force
@@ -240,15 +352,23 @@ CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.s: cmake_force
 # Object files for target fsoft2022_1A_5
 fsoft2022_1A_5_OBJECTS = \
 "CMakeFiles/fsoft2022_1A_5.dir/main.cpp.o" \
+"CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.o" \
+"CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.o" \
+"CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.o" \
+"CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.o" \
+"CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.o" \
 "CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.o" \
 "CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.o" \
 "CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.o" \
 "CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.o" \
-"CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o" \
-"CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o" \
 "CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.o" \
 "CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.o" \
+"CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o" \
+"CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o" \
 "CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.o" \
+"CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.o" \
+"CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.o" \
+"CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.o" \
 "CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.o" \
 "CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.o"
 
@@ -256,20 +376,28 @@ fsoft2022_1A_5_OBJECTS = \
 fsoft2022_1A_5_EXTERNAL_OBJECTS =
 
 fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/main.cpp.o
+fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.o
+fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.o
+fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.o
+fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.o
+fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.o
 fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFile.cpp.o
 fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Model/Employee.cpp.o
 fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Model/Date.cpp.o
 fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.o
-fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o
-fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o
 fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Model/ClientFileContainer.cpp.o
 fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Model/EmployeeContainer.cpp.o
+fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Model/Workshop.cpp.o
+fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Model/WorkshopContainer.cpp.o
 fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Model/MakeupStore.cpp.o
+fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.o
+fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.o
+fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.o
 fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.o
 fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/mock/mockData.cpp.o
 fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/build.make
 fsoft2022_1A_5: CMakeFiles/fsoft2022_1A_5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable fsoft2022_1A_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable fsoft2022_1A_5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fsoft2022_1A_5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

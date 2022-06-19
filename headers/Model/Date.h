@@ -1,7 +1,5 @@
-
-
-#ifndef FSOFT2022_1A_5_DATE_H
-#define FSOFT2022_1A_5_DATE_H
+#ifndef HEADERS_MODEL_DATE_H
+#define HEADERS_MODEL_DATE_H
 
 #include <iostream>
 #include <string>
@@ -31,4 +29,4 @@ public:
 };
 
 
-#endif //FSOFT2022_1A_5_DATE_H
+#endif //HEADERS_MODEL_DATE_H

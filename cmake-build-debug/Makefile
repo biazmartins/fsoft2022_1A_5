@@ -201,6 +201,78 @@ source/Controllers/controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Controllers/controller.cpp.s
 .PHONY : source/Controllers/controller.cpp.s
 
+source/Exceptions/dataConsistencyException.o: source/Exceptions/dataConsistencyException.cpp.o
+.PHONY : source/Exceptions/dataConsistencyException.o
+
+# target to build an object file
+source/Exceptions/dataConsistencyException.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.o
+.PHONY : source/Exceptions/dataConsistencyException.cpp.o
+
+source/Exceptions/dataConsistencyException.i: source/Exceptions/dataConsistencyException.cpp.i
+.PHONY : source/Exceptions/dataConsistencyException.i
+
+# target to preprocess a source file
+source/Exceptions/dataConsistencyException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.i
+.PHONY : source/Exceptions/dataConsistencyException.cpp.i
+
+source/Exceptions/dataConsistencyException.s: source/Exceptions/dataConsistencyException.cpp.s
+.PHONY : source/Exceptions/dataConsistencyException.s
+
+# target to generate assembly for a file
+source/Exceptions/dataConsistencyException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/dataConsistencyException.cpp.s
+.PHONY : source/Exceptions/dataConsistencyException.cpp.s
+
+source/Exceptions/duplicatedDataException.o: source/Exceptions/duplicatedDataException.cpp.o
+.PHONY : source/Exceptions/duplicatedDataException.o
+
+# target to build an object file
+source/Exceptions/duplicatedDataException.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.o
+.PHONY : source/Exceptions/duplicatedDataException.cpp.o
+
+source/Exceptions/duplicatedDataException.i: source/Exceptions/duplicatedDataException.cpp.i
+.PHONY : source/Exceptions/duplicatedDataException.i
+
+# target to preprocess a source file
+source/Exceptions/duplicatedDataException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.i
+.PHONY : source/Exceptions/duplicatedDataException.cpp.i
+
+source/Exceptions/duplicatedDataException.s: source/Exceptions/duplicatedDataException.cpp.s
+.PHONY : source/Exceptions/duplicatedDataException.s
+
+# target to generate assembly for a file
+source/Exceptions/duplicatedDataException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/duplicatedDataException.cpp.s
+.PHONY : source/Exceptions/duplicatedDataException.cpp.s
+
+source/Exceptions/invalidDataException.o: source/Exceptions/invalidDataException.cpp.o
+.PHONY : source/Exceptions/invalidDataException.o
+
+# target to build an object file
+source/Exceptions/invalidDataException.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.o
+.PHONY : source/Exceptions/invalidDataException.cpp.o
+
+source/Exceptions/invalidDataException.i: source/Exceptions/invalidDataException.cpp.i
+.PHONY : source/Exceptions/invalidDataException.i
+
+# target to preprocess a source file
+source/Exceptions/invalidDataException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.i
+.PHONY : source/Exceptions/invalidDataException.cpp.i
+
+source/Exceptions/invalidDataException.s: source/Exceptions/invalidDataException.cpp.s
+.PHONY : source/Exceptions/invalidDataException.s
+
+# target to generate assembly for a file
+source/Exceptions/invalidDataException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Exceptions/invalidDataException.cpp.s
+.PHONY : source/Exceptions/invalidDataException.cpp.s
+
 source/Model/ClientFile.o: source/Model/ClientFile.cpp.o
 .PHONY : source/Model/ClientFile.o
 
@@ -417,6 +489,126 @@ source/Model/person.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Model/person.cpp.s
 .PHONY : source/Model/person.cpp.s
 
+source/Views/ClientFileView.o: source/Views/ClientFileView.cpp.o
+.PHONY : source/Views/ClientFileView.o
+
+# target to build an object file
+source/Views/ClientFileView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.o
+.PHONY : source/Views/ClientFileView.cpp.o
+
+source/Views/ClientFileView.i: source/Views/ClientFileView.cpp.i
+.PHONY : source/Views/ClientFileView.i
+
+# target to preprocess a source file
+source/Views/ClientFileView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.i
+.PHONY : source/Views/ClientFileView.cpp.i
+
+source/Views/ClientFileView.s: source/Views/ClientFileView.cpp.s
+.PHONY : source/Views/ClientFileView.s
+
+# target to generate assembly for a file
+source/Views/ClientFileView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/ClientFileView.cpp.s
+.PHONY : source/Views/ClientFileView.cpp.s
+
+source/Views/EmployeeView.o: source/Views/EmployeeView.cpp.o
+.PHONY : source/Views/EmployeeView.o
+
+# target to build an object file
+source/Views/EmployeeView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.o
+.PHONY : source/Views/EmployeeView.cpp.o
+
+source/Views/EmployeeView.i: source/Views/EmployeeView.cpp.i
+.PHONY : source/Views/EmployeeView.i
+
+# target to preprocess a source file
+source/Views/EmployeeView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.i
+.PHONY : source/Views/EmployeeView.cpp.i
+
+source/Views/EmployeeView.s: source/Views/EmployeeView.cpp.s
+.PHONY : source/Views/EmployeeView.s
+
+# target to generate assembly for a file
+source/Views/EmployeeView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/EmployeeView.cpp.s
+.PHONY : source/Views/EmployeeView.cpp.s
+
+source/Views/Utils.o: source/Views/Utils.cpp.o
+.PHONY : source/Views/Utils.o
+
+# target to build an object file
+source/Views/Utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.o
+.PHONY : source/Views/Utils.cpp.o
+
+source/Views/Utils.i: source/Views/Utils.cpp.i
+.PHONY : source/Views/Utils.i
+
+# target to preprocess a source file
+source/Views/Utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.i
+.PHONY : source/Views/Utils.cpp.i
+
+source/Views/Utils.s: source/Views/Utils.cpp.s
+.PHONY : source/Views/Utils.s
+
+# target to generate assembly for a file
+source/Views/Utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/Utils.cpp.s
+.PHONY : source/Views/Utils.cpp.s
+
+source/Views/View.o: source/Views/View.cpp.o
+.PHONY : source/Views/View.o
+
+# target to build an object file
+source/Views/View.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.o
+.PHONY : source/Views/View.cpp.o
+
+source/Views/View.i: source/Views/View.cpp.i
+.PHONY : source/Views/View.i
+
+# target to preprocess a source file
+source/Views/View.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.i
+.PHONY : source/Views/View.cpp.i
+
+source/Views/View.s: source/Views/View.cpp.s
+.PHONY : source/Views/View.s
+
+# target to generate assembly for a file
+source/Views/View.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/View.cpp.s
+.PHONY : source/Views/View.cpp.s
+
+source/Views/WorkshopView.o: source/Views/WorkshopView.cpp.o
+.PHONY : source/Views/WorkshopView.o
+
+# target to build an object file
+source/Views/WorkshopView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.o
+.PHONY : source/Views/WorkshopView.cpp.o
+
+source/Views/WorkshopView.i: source/Views/WorkshopView.cpp.i
+.PHONY : source/Views/WorkshopView.i
+
+# target to preprocess a source file
+source/Views/WorkshopView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.i
+.PHONY : source/Views/WorkshopView.cpp.i
+
+source/Views/WorkshopView.s: source/Views/WorkshopView.cpp.s
+.PHONY : source/Views/WorkshopView.s
+
+# target to generate assembly for a file
+source/Views/WorkshopView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fsoft2022_1A_5.dir/build.make CMakeFiles/fsoft2022_1A_5.dir/source/Views/WorkshopView.cpp.s
+.PHONY : source/Views/WorkshopView.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -435,6 +627,15 @@ help:
 	@echo "... source/Controllers/controller.o"
 	@echo "... source/Controllers/controller.i"
 	@echo "... source/Controllers/controller.s"
+	@echo "... source/Exceptions/dataConsistencyException.o"
+	@echo "... source/Exceptions/dataConsistencyException.i"
+	@echo "... source/Exceptions/dataConsistencyException.s"
+	@echo "... source/Exceptions/duplicatedDataException.o"
+	@echo "... source/Exceptions/duplicatedDataException.i"
+	@echo "... source/Exceptions/duplicatedDataException.s"
+	@echo "... source/Exceptions/invalidDataException.o"
+	@echo "... source/Exceptions/invalidDataException.i"
+	@echo "... source/Exceptions/invalidDataException.s"
 	@echo "... source/Model/ClientFile.o"
 	@echo "... source/Model/ClientFile.i"
 	@echo "... source/Model/ClientFile.s"
@@ -462,6 +663,21 @@ help:
 	@echo "... source/Model/person.o"
 	@echo "... source/Model/person.i"
 	@echo "... source/Model/person.s"
+	@echo "... source/Views/ClientFileView.o"
+	@echo "... source/Views/ClientFileView.i"
+	@echo "... source/Views/ClientFileView.s"
+	@echo "... source/Views/EmployeeView.o"
+	@echo "... source/Views/EmployeeView.i"
+	@echo "... source/Views/EmployeeView.s"
+	@echo "... source/Views/Utils.o"
+	@echo "... source/Views/Utils.i"
+	@echo "... source/Views/Utils.s"
+	@echo "... source/Views/View.o"
+	@echo "... source/Views/View.i"
+	@echo "... source/Views/View.s"
+	@echo "... source/Views/WorkshopView.o"
+	@echo "... source/Views/WorkshopView.i"
+	@echo "... source/Views/WorkshopView.s"
 .PHONY : help
 
 

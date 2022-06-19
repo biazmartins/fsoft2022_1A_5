@@ -1,9 +1,5 @@
-//
-// Created by Ana Rita Maia Barbosa da Silva on 08/06/2022.
-//
-
-#ifndef FSOFT2022_1A_5_INVALIDDATAEXCEPTION_H
-#define FSOFT2022_1A_5_INVALIDDATAEXCEPTION_H
+#ifndef HEADERS_EXCEPTIONS_INVALIDDATAEXCEPTION_H
+#define HEADERS_EXCEPTIONS_INVALIDDATAEXCEPTION_H
 
 #include <exception>
 #include <string>
@@ -18,4 +14,4 @@ public:
     const char* what();
 };
 
-#endif //FSOFT2022_1A_5_INVALIDDATAEXCEPTION_H
+#endif //HEADERS_EXCEPTIONS_INVALIDDATAEXCEPTION_H

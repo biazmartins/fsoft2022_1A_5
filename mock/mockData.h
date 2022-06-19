@@ -1,8 +1,8 @@
-#ifndef FSOFT2022_1A_5_MOCKDATA_H
-#define FSOFT2022_1A_5_MOCKDATA_H
+#ifndef MOCK_MOCKDATA_H
+#define MOCK__MOCKDATA_H
+
 #include<string>
 #include<vector>
-
 #include "MakeupStore.h"
 
 using namespace std;
@@ -25,7 +25,4 @@ public:
     void generateData(MakeupStore& makeupStore);
 };
 
-
-
-
-#endif //FSOFT2022_1A_5_MOCKDATA_H
+#endif //MOCK_MOCKDATA_H

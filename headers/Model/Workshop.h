@@ -1,3 +1,6 @@
+#ifndef HEADERS_MODEL_WORKSHOP_H
+#define HEADERS_MODEL_WORKSHOP_H
+
 #include <iostream>
 #include <string>
 #include "employee.h"
@@ -23,3 +26,4 @@ public:
     void setSegmentation(string segmentation);
 };
 
+#endif //HEADERS_MODEL_WORKSHOP_H

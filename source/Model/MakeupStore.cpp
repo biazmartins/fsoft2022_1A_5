@@ -4,7 +4,7 @@ MakeupStore::MakeupStore(){
     this->store = "";
 }
 
-MakeupStore::MakeupStore(string store){
+MakeupStore::MakeupStore(const string store){
     this->store = store;
 }
 string MakeupStore::getStore() {

@@ -1,5 +1,5 @@
-#ifndef FSOFT2022_1A_5_CLIENTFILE_H
-#define FSOFT2022_1A_5_CLIENTFILE_H
+#ifndef HEADERS_MODEL_CLIENTFILE_H
+#define HEADERS_MODEL_CLIENTFILE_H
 
 #include <iostream>
 #include <string>
@@ -9,8 +9,8 @@ using namespace std;
 class ClientFile{
 private:
     string name;
-    int phone_number;
     string email;
+    int phone_number;
 
 public:
     ClientFile(string name, string email, int phone_number);
@@ -27,4 +27,4 @@ public:
 
 };
 
-#endif //FSOFT2022_1A_5_CLIENTFILE_H
+#endif //HEADERS_MODEL_CLIENTFILE_H

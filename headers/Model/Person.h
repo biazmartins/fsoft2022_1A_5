@@ -1,5 +1,5 @@
-#ifndef FSOFT2022_1A_5_PERSON_H
-#define FSOFT2022_1A_5_PERSON_H
+#ifndef HEADERS_MODEL_PERSON_H
+#define HEADERS_MODEL_PERSON_H
 
 #include <string>
 #include "Date.h"
@@ -17,4 +17,4 @@ public:
     void setName(string name);
 };
 
-#endif //FSOFT2022_1A_5_PERSON_H
+#endif //HEADERS_MODEL_PERSON_H

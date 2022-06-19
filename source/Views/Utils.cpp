@@ -1,7 +1,3 @@
-//
-// Created by Ana Rita Maia Barbosa da Silva on 09/06/2022.
-//
-
 #include <iostream>
 #include <limits>
 #include "Utils.h"

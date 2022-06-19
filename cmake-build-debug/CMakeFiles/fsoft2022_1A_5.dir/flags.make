@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/mock -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Controllers -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Controllers -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/exceptions -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/exceptions -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/views
+CXX_INCLUDES = -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/mock -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Controllers -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Controllers -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Exceptions -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Views -I/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views
 
 CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
 

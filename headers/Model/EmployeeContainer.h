@@ -1,5 +1,5 @@
-#ifndef FSOFT2022_1A_5_EMPLOYEECONTAINER_H
-#define FSOFT2022_1A_5_EMPLOYEECONTAINER_H
+#ifndef HEADERS_MODEL_EMPLOYEECONTAINER_H
+#define HEADERS_MODEL_EMPLOYEECONTAINER_H
 
 
 #include <list>
@@ -19,4 +19,4 @@ public:
     void update(string store, string specialty);
 
 };
-#endif //FSOFT2022_1A_5_EMPLOYEECONTAINER_H
+#endif //HEADERS_MODEL_EMPLOYEECONTAINER_H

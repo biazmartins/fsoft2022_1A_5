@@ -1,8 +1,7 @@
 #include <iostream>
 #include "MakeupStore.h"
-
 #include "mockData.h"
-#include "Controller.h"
+#include "controller.h"
 //comentario
 using namespace std;
 

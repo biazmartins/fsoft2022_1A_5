@@ -1,5 +1,5 @@
-#ifndef FSOFT2022_1A_5_VIEW_H
-#define FSOFT2022_1A_5_VIEW_H
+#ifndef HEADERS_VIEWS_VIEW_H
+#define HEADERS_VIEWS_VIEW_H
 
 
 #include <string>
@@ -15,4 +15,4 @@ public:
 
 };
 
-#endif //FSOFT2022_1A_5_VIEW_H
+#endif //HEADERS_VIEWS_VIEW_H

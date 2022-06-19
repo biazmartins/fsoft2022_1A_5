@@ -2,7 +2,7 @@
 #include <list>
 #include "View.h"
 #include "Utils.h"
-#include "invalidDataException"
+#include "invalidDataException.h"
 
 using namespace std;
 
@@ -19,7 +19,7 @@ int View::menuMakeupStore(){
                 cout<<"4 - Stores\n";
                 cout<<"\n0 - Exit\n";
                 option = Utils::getNumber("option");
-            }while(option > 0 || option =< 4);
+            }while(option > 0 || option <= 4);
             return option;
 }
 

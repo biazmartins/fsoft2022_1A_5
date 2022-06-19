@@ -1,5 +1,5 @@
-#ifndef FSOFT2022_1A_5_WORKSHOPVIEW_H
-#define FSOFT2022_1A_5_WORKSHOPVIEW_H
+#ifndef HEADERS_VIEWS_WORKSHOPVIEW_H
+#define HEADERS_VIEWS_WORKSHOPVIEW_H
 
 #include <list>
 #include "Workshop.h"
@@ -13,4 +13,4 @@ public:
     void printWorkshop(Employee *employee);
 };
 
-#endif //FSOFT2022_1A_5_WORKSHOPVIEW_H
+#endif //HEADERS_VIEWS_WORKSHOPVIEW_H

@@ -1,6 +1,6 @@
 
-#ifndef FSOFT2022_1A_5_EMPLOYEE_H
-#define FSOFT2022_1A_5_EMPLOYEE_H
+#ifndef HEADERS_MODEL_EMPLOYEE_H
+#define HEADERS_MODEL_EMPLOYEE_H
 
 #include <string>
 #include <iostream>
@@ -27,4 +27,4 @@ public:
 
 };
 
-#endif // FSOFT2022_1A_5_EMPLOYEE_H
+#endif // HEADERS_MODEL_EMPLOYEE_H

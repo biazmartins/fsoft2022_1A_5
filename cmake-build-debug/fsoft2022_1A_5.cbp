@@ -47,11 +47,12 @@
 					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/mock"/>
 					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Controllers"/>
 					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Controllers"/>
-					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/exceptions"/>
-					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/exceptions"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Exceptions"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions"/>
 					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model"/>
 					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model"/>
-					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/views"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Views"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -76,11 +77,12 @@
 					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/mock"/>
 					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Controllers"/>
 					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Controllers"/>
-					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/exceptions"/>
-					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/exceptions"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Exceptions"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions"/>
 					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model"/>
 					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model"/>
-					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/views"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Views"/>
+					<Add directory="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -97,6 +99,15 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Controllers/controller.h">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Exceptions/dataConsistencyException.h">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Exceptions/duplicatedDataException.h">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Exceptions/invalidDataException.h">
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
 		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model/ClientFile.h">
@@ -126,6 +137,21 @@
 		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Model/employee.h">
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Views/ClientFileView.h">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Views/EmployeeView.h">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Views/Utils.h">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Views/View.h">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/headers/Views/WorkshopView.h">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
 		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/main.cpp">
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
@@ -136,6 +162,15 @@
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
 		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Controllers/controller.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/dataConsistencyException.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/duplicatedDataException.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Exceptions/invalidDataException.cpp">
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
 		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/ClientFile.cpp">
@@ -163,6 +198,21 @@
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
 		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Model/person.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/ClientFileView.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/EmployeeView.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/Utils.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/View.cpp">
+			<Option target="fsoft2022_1A_5"/>
+		</Unit>
+		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/source/Views/WorkshopView.cpp">
 			<Option target="fsoft2022_1A_5"/>
 		</Unit>
 		<Unit filename="/Users/anarita/Desktop/GitHub/fsoft2022_1A_5/CMakeLists.txt">

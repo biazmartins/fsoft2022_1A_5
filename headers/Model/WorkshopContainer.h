@@ -1,5 +1,5 @@
-#ifndef FSOFT2022_1A_5_WORKSHOPCONTAINER_H
-#define FSOFT2022_1A_5_WORKSHOPCONTAINER_H
+#ifndef HEADERS_MODEL_WORKSHOPCONTAINER_H
+#define HEADERS_MODEL_WORKSHOPCONTAINER_H
 
 #include <list>
 #include "Workshop.h"
@@ -17,4 +17,4 @@ public:
     void update(string segmentation);
 
 };
-#endif //FSOFT2022_1A_5_WORKSHOPCONTAINER_H
+#endif //HEADERS_MODEL_WORKSHOPCONTAINER_H
