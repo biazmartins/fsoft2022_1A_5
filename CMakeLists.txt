@@ -93,8 +93,9 @@ set(VIEWS_SOURCE_FILES
         ${PROJECT_SOURCES_VIEWS_DIR}/ClientFileView.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/EmployeeView.h
         ${PROJECT_SOURCES_VIEWS_DIR}/EmployeeView.cpp
-        ${PROJECT_HEADERS_VIEWS_DIR}/WorkshopView.cpp
-        ${PROJECT_SOURCES_VIEWS_DIR}/WorkshopView.h)
+        ${PROJECT_HEADERS_VIEWS_DIR}/WorkshopView.h
+        ${PROJECT_SOURCES_VIEWS_DIR}/WorkshopView.cpp)
+
 add_executable(
         fsoft2022_1A_5
         main.cpp
