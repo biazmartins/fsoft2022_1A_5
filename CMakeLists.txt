@@ -29,10 +29,10 @@ set(CONTROLLERS_SOURCE_FILES
         ${PROJECT_SOURCES_CONTROLLERS_DIR}/controller.cpp)
 
 set(PROJECT_HEADERS_EXCEPTIONS_DIR
-        ${PROJECT_HEADERS_DIR}/exceptions)
+        ${PROJECT_HEADERS_DIR}/Exceptions)
 
 set(PROJECT_SOURCES_EXCEPTIONS_DIR
-        ${PROJECT_SOURCES_DIR}/exceptions)
+        ${PROJECT_SOURCES_DIR}/Exceptions)
 
 include_directories(
         ${PROJECT_HEADERS_EXCEPTIONS_DIR}
@@ -81,10 +81,10 @@ set(MODEL_SOURCE_FILES
 
 
 set(PROJECT_HEADERS_VIEWS_DIR
-        ${PROJECT_HEADERS_DIR}/views)
+        ${PROJECT_HEADERS_DIR}/Views)
 
 set(PROJECT_SOURCES_VIEWS_DIR
-        ${PROJECT_HEADERS_DIR}/views)
+        ${PROJECT_HEADERS_DIR}/Views)
 include_directories(
         ${PROJECT_HEADERS_VIEWS_DIR}
         ${PROJECT_SOURCES_VIEWS_DIR})
@@ -98,8 +98,8 @@ set(VIEWS_SOURCE_FILES
         ${PROJECT_SOURCES_VIEWS_DIR}/ClientFileView.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/EmployeeView.h
         ${PROJECT_SOURCES_VIEWS_DIR}/EmployeeView.cpp
-        ${PROJECT_HEADERS_VIEWS_DIR}/Workshop.cpp
-        ${PROJECT_SOURCES_VIEWS_DIR}/Workshop.h)
+        ${PROJECT_HEADERS_VIEWS_DIR}/WorkshopView.cpp
+        ${PROJECT_SOURCES_VIEWS_DIR}/WorkshopView.h)
 
 add_executable(
         fsoft2022_1A_5
