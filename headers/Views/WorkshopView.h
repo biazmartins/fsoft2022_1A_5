@@ -6,11 +6,10 @@
 #include "EmployeeContainer.h"
 
 class WorkshopView{
-private:
 public:
     Workshop getWorkshop(EmployeeContainer & employees);
     void printWorkshop(Workshop *workshop);
-    void printWorkshop(Employee *employee, list<Emloyee>& employees);
+    void printWorkshop(Employee *employee, list<Workshop>& workshops);
 };
 
 #endif //HEADERS_VIEWS_WORKSHOPVIEW_H

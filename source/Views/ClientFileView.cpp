@@ -2,6 +2,7 @@
 #include "ClientFileView.h"
 #include "Utils.h"
 #include "invalidDataException.h"
+#include "ClientFile.h"
 
 using namespace std;
 
@@ -21,7 +22,7 @@ ClientFile ClientFileView::getClientFile(){
             flag = true;//se apanhar um erro
         }
     }while (flag == true);//ciclo que se repete, se os dados forem invalidos ele vai fazer o ciclo até serem validos, marca true sempre que os dados forem válidos
-    return phone_number; //se for false, ou seja se os dados nao forem inválidos
+    return clientFile; //se for false, ou seja se os dados nao forem inválidos
 }
 
 void ClientFileView::printClientFile(ClientFile *clientFile){
