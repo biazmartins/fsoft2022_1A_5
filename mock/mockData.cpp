@@ -21,7 +21,7 @@ void mockData::insertWorkshops(WorkshopContainer& container){
     }
 }
 
-    //?
+
 Workshop *mockData::getRandomWorkshop(WorkshopContainer &container){
     list<Workshop> listWorkshop = workshops.getAll();
     list<Workshop>::iterator it = listClass.begin();
@@ -35,7 +35,6 @@ Workshop *mockData::getRandomWorkshop(WorkshopContainer &container){
     return ptr;
 }
 
-    //??
 void mockData::generateData(MakeupStore *makeupStore){
     srand (time(NULL));
     insertClientsFile(makeupStore.getClientFileContainer());
