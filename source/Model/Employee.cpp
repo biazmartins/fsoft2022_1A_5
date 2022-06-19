@@ -1,4 +1,3 @@
-
 #include "employee.h"
 
 Employee::Employee(string name, string specialty, string store){ //constructor, o employee é constituído por um "name", um "specialty" e uma "store"
