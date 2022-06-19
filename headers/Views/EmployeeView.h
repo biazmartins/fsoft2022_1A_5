@@ -1,6 +1,3 @@
-//
-// Created by Ana Rita Maia Barbosa da Silva on 10/06/2022.
-//
 
 #ifndef HEADERS_VIEWS_EMPLOYEEVIEW_H
 #define HEADERS_VIEWS_EMPLOYEEVIEW_H

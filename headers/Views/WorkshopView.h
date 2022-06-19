@@ -2,13 +2,16 @@
 #define HEADERS_VIEWS_WORKSHOPVIEW_H
 
 #include <list>
-#include "Workshop.h"
+#include <iostream>
+#include "WorkshopContainer.h"
 #include "EmployeeContainer.h"
+#include "Utils.h"
+#include "invalidDataException.h"
+
 
 class WorkshopView{
-private:
 public:
-    Workshop getWorkshop(EmployeeContainer & employees);
+    Workshop getWorkshop();
     void printWorkshop(Workshop *workshop); //dar print a 1 workshop
     void printWorkshop(list<Workshop>& workshops); //igual à primeira, mando uma lista
 };

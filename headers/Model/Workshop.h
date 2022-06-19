@@ -24,6 +24,7 @@ public:
 
     string getSegmentation() const;
     void setSegmentation(string segmentation);
+
 };
 
 #endif //HEADERS_MODEL_WORKSHOP_H

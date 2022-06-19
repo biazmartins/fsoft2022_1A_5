@@ -19,6 +19,14 @@ list<Workshop>WorkshopContainer::getAll(){
     return newlist;
 }
 
+void WorkshopContainer::get(string segmentation) {
+    list<Workshop>::iterator it = search(segmentation);
+    if (it != this->workshop.end()){
+        it->printInfo();
+    }else{
+        cout << "Workshop does not exist." << endl;
+    }
+}
 void WorkshopContainer::add(Workshop evento) {
     list<Workshop>::iterator it = search(evento.getSegmentation()); //procura se um evento existe ou nao, se retornar a ultima posição da lista é porque nao existe
     if (it == this->workshop.end()) {

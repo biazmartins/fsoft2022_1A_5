@@ -27,7 +27,7 @@ void EmployeeContainer::get(string store, string specialty) {
     if (it != this->employee.end()){
         it->printInfo();
     }else{
-        cout << "The Client file does not exist." << endl;
+        cout << "This Employee does not exist." << endl;
     }
 }
 
@@ -53,7 +53,7 @@ void EmployeeContainer::update(string store, string specialty, string name){
         it->setSpecialty(specialty);//dar update nas alterações que possam ter acontecido na ficha do funcionário, isto é, pode-se ter alterado a loja em que ele trabalha ou a especialidade
         it->setName(name);
     }
-    
+
 }
 
 

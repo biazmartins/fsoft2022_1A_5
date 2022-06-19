@@ -36,5 +36,3 @@ void Workshop::setSegmentation(string segmentation) {
     this->segmentation= segmentation;
 }
 
-
-

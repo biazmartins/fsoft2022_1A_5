@@ -12,6 +12,7 @@ private:
 public:
     list<Workshop> getAll();
 
+
     void add(Workshop evento);
     void remove(string segmentation);
     void update(string segmentation);

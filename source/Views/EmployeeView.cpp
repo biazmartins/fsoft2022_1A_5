@@ -15,8 +15,10 @@ Employee EmployeeView::getEmployee(){
         try{
             flag = false;
             cout<<"Employee"<<endl;
-            string name = Utils::getString("name");
-            employee.setName(name);
+            string store = Utils::getString("Enter store");
+            string specialty = Utils::getString("Enter specialty");
+            employee.setSpecialty(specialty);
+            employee.setStore(store);
         }catch(invalidDataException& e){
             flag = true;
         }
