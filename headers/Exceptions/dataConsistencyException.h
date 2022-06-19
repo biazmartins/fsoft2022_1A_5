@@ -4,6 +4,7 @@
 #include <exception>
 #include <string>
 
+
 using namespace std;
 
 class dataConsistencyException: public exception{
