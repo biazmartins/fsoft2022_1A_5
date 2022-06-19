@@ -1,8 +1,8 @@
 #include "Workshop.h"
 
-Workshop::Workshop(string store, Employee employees, string segmentation){
+Workshop::Workshop(string store, Employee *employees, string segmentation){
     this->store = store;
-    this->employees = employees;
+    this->employees = *employees;
     this->segmentation = segmentation;
 }
 

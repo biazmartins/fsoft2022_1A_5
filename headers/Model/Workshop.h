@@ -13,7 +13,7 @@ private:
     Employee employees;
     string segmentation;
 public:
-    Workshop(string store, Employee employees, string segmentation);
+    Workshop(string store, Employee *employees, string segmentation);
     Workshop();
 
     string getStore() const;

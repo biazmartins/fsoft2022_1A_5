@@ -95,7 +95,6 @@ set(VIEWS_SOURCE_FILES
         ${PROJECT_SOURCES_VIEWS_DIR}/EmployeeView.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/WorkshopView.cpp
         ${PROJECT_SOURCES_VIEWS_DIR}/WorkshopView.h)
-
 add_executable(
         fsoft2022_1A_5
         main.cpp
