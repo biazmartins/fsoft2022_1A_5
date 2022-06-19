@@ -10,7 +10,7 @@
 #include "WorkshopView.h"
 
 class Controller{
-private:
+private: //parâmetros/funções do controller
     MakeupStore model;
     View view;
     ClientFileView clientFileView;
@@ -19,7 +19,7 @@ private:
     void runClientFile();
     void runEmployees();
     void runWorkshops();
-public:
+public: //local onde vai correr o programa
     Controller(MakeupStore& makeupStore);
     void run();
 };
