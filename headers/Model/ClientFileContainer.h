@@ -13,9 +13,11 @@ private:
 public:
     list<ClientFile> getAll();
 
+    void get(int phone_number);
+
     void add(ClientFile cliente);
     void remove(int phone_number);
-    void update(int phone_number);
+    void update(int phone_number, string name, string email);
 
 };
 

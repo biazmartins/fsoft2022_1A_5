@@ -33,3 +33,9 @@ int ClientFile::getPhoneNumber() const {//vai buscar o número de telefone do ob
 void ClientFile::setPhoneNumber(int phone_number) {//setPhoneNumber é para alterar ou adicionar um número de telefone
     this->phone_number = phone_number;
 }
+
+void ClientFile::printInfo() {
+    cout<< this->phone_number<<":"<<endl;
+    cout<<this->name<<":"<<endl;
+    cout<<this->email<<":"<<endl;
+}

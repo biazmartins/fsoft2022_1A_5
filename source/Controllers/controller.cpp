@@ -8,7 +8,7 @@
 using namespace std;
 
 Controller::Controller(MakeupStore &makeupStore){
-    this->model = makeupStore;
+    this->model = makeupStore; //vai buscar tudo o que esta no model
 }
 
 void Controller::run(){
@@ -35,8 +35,8 @@ void Controller::runClientFile(){
         option = this->view.menuClientFile();
         switch (option) {
             case 1: {
-                ClientFile clientFile = this->clientFileView.getClientFile();
-                ClientFileContainer &container = this->model.getClientFileContainer();
+                ClientFile/*constructor*/ clientFile/*objeto*/ = this->clientFileView.getClientFile();
+                ClientFileContainer container = this->model.getClientFileContainer();
                 container.add(clientFile);
             }
             break;
@@ -54,13 +54,8 @@ void Controller::runClientFile(){
 
             case 3: {
                 int phone_number = Utils::getNumber("Enter the Client Phone Number");
-                ClientFileContainer& container = this->model.getClientFileContainer();
-                ClientFile *ptr = container.get(phone_number);
-                if (ptr != NULL) {
-                    this->clientFileView.printClientFile(ptr);
-                } else {
-                    cout << "The Client file does not exist." << endl;
-                }
+                ClientFileContainer container = this->model.getClientFileContainer();
+                container.get(phone_number);
             }
             break;
 
@@ -69,7 +64,7 @@ void Controller::runClientFile(){
                 string name = Utils::getString ("Enter the client name.");
                 string email = Utils::getString ("Enter the client email.");
                 ClientFileContainer& container = this->model.getClientFileContainer();
-                container.update(phone_number, name, email, date);
+                container.update(phone_number, name, email);
             }
             break;
             case 5:{

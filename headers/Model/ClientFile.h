@@ -22,9 +22,11 @@ public:
     string getEmail() const;
     void setEmail(string email);
 
+
     int getPhoneNumber() const;
     void setPhoneNumber(int phone_number);
 
+    void printInfo();
 };
 
 #endif //HEADERS_MODEL_CLIENTFILE_H
