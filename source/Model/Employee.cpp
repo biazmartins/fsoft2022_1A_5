@@ -35,3 +35,8 @@ string Employee::getStore() const { //vai buscar a loja onde o funcionário trab
 void Employee::setStore(string store) {//vai alterar ou adicionar uma loja onde o funcionário vai trabalhar
     this->store = store;
 }
+void Employee::printInfo() {
+    cout<< this->name<<":"<<endl;
+    cout<<this->specialty<<":"<<endl;
+    cout<<this->store<<":"<<endl;
+}

@@ -22,6 +22,14 @@ list<Employee> EmployeeContainer::getAll(){
     list<Employee> newlist (this->employee);
     return newlist;
 }
+void EmployeeContainer::get(string store, string specialty) {
+    list<Employee>::iterator it = search(store, specialty);
+    if (it != this->employee.end()){
+        it->printInfo();
+    }else{
+        cout << "The Client file does not exist." << endl;
+    }
+}
 
 void EmployeeContainer::add(Employee empregado) {
     list<Employee>::iterator it = search(empregado.getStore(),
@@ -38,12 +46,14 @@ void EmployeeContainer::remove(string store, string specialty) {
     }
 }
 
-void EmployeeContainer::update(string store, string specialty){
+void EmployeeContainer::update(string store, string specialty, string name){
     list<Employee>::iterator it = search(store, specialty);// procurar um funcionário (código semelhante aos representados
     if(it != this->employee.end()){
         it->setStore(store);
         it->setSpecialty(specialty);//dar update nas alterações que possam ter acontecido na ficha do funcionário, isto é, pode-se ter alterado a loja em que ele trabalha ou a especialidade
+        it->setName(name);
     }
+    
 }
 
 

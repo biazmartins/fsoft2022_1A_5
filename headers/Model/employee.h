@@ -25,6 +25,8 @@ public:
     string getStore() const;
     void setStore(string store);
 
+    void printInfo();
+
 };
 
 #endif // HEADERS_MODEL_EMPLOYEE_H
